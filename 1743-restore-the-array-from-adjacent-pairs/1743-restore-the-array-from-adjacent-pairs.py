@@ -10,27 +10,22 @@ class Solution:
             graph[u].append(v)
             graph[v].append(u)
         
-        cur = None
+        first = None
         for i in graph.keys():
             if len(graph[i]) == 1:
-                cur = i
+                first = i
                 break
         
         visit = {i: False for i in graph}
-        visit[cur] = True
-        result = [cur]
-        prev = len(result)
-        while cur:
-            cur = result[-1]
-            for nxt in graph[cur]:
+        result = [first]
+        visit[first] = True
+        def dfs(cur_node):
+            for nxt in graph[cur_node]:
                 if not visit[nxt]:
                     result.append(nxt)
                     visit[nxt] = True
-            
-            if prev == len(result):
-                break
-            
-            prev = len(result)
-
+                    dfs(nxt)
+        
+        dfs(first)
         return result
             
