@@ -6,10 +6,10 @@ class Solution:
         for i in range(len(nums)-1):
             for j in range(i+1, len(nums)):
                 product = nums[i]*nums[j]
+                if product in cnt:
+                    result += 8 * len(cnt[product])
+                
                 cnt[product].append((nums[i], nums[j]))
-        
-        for k, v in cnt.items():
-            result += 8 * len(v) *(len(v)-1) // 2
         
         return result
 
