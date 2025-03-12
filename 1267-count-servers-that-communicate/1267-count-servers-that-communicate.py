@@ -11,7 +11,7 @@ class Solution:
                     q = deque([(i,j)])
                     while q:
                         cr, cc = q.popleft()
-                        for col in range(cc+1, n):
+                        for col in range(n):
                             if not visit[cr][col] and grid[cr][col]:
                                 visit[cr][col] = True
                                 q.append((cr, col))
@@ -19,7 +19,7 @@ class Solution:
                                 graph[str(cr)+'-'+str(col)].append((cr, cc))
                                 break
                         
-                        for row in range(cr+1, m):
+                        for row in range(m):
                             if not visit[row][cc] and grid[row][cc]:
                                 visit[row][cc] = True
                                 q.append((row, cc))
