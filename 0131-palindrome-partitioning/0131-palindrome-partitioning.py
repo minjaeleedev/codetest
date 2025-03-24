@@ -1,27 +1,16 @@
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
-        def is_palindrome(s:str):
-            for i in range(len(s)//2):
-                if s[i] != s[len(s)-i-1]:
-                    return False
-            
-            return True
-        
-        result = []
-        cur = []
-        def dfs(s, j):
-            if not s:
-                result.append(cur[:])
-                return
-            elif len(s) == j:
-                return
+        def is_palindrome(sub):
+            return sub == sub[::-1]
 
-            sub = s[:j+1]
-            if is_palindrome(sub):
-                cur.append(sub)
-                dfs(s[j+1:], 0)
-                cur.pop()
-            dfs(s, j+1)
-            
-        dfs(s, 0)
+        def backtrack(start, path):
+            if start == len(s):
+                result.append(path[:])
+                return
+            for end in range(start + 1, len(s) + 1):
+                if is_palindrome(s[start:end]):
+                    backtrack(end, path + [s[start:end]])
+
+        result = []
+        backtrack(0, [])
         return result
