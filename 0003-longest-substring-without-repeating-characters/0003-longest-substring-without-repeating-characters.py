@@ -4,12 +4,11 @@ class Solution:
         sub = ''
         for i in range(len(s)):
             c = s[i]
-            if c not in sub:
-                sub += c
-            else:
+            if c in sub:
                 idx = sub.find(c)
-                sub = sub[idx:i+1]
-                
+                sub = sub[idx+1:]
+            
+            sub += c
             result = max(result, len(sub))
             
         return result
