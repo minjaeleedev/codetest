@@ -1,27 +1,33 @@
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         m, n = len(matrix), len(matrix[0])
-        start = 0
+        top, right, left, bottom = 0, n-1, 0, m-1
         result = []
-        while m > 0 and n > 0:
-            for j in range(start, start+n):
-                result.append(matrix[start][j])
+        while top <= bottom and left <= right:
+            # left to right
+            for j in range(left, right+1):
+                result.append(matrix[top][j])
 
-            if m > 1:
-                # 행이 2개 이상이면 아래로 이동
-                for i in range(start+1, start+m):
-                    result.append(matrix[i][start+n-1])
+            top += 1
 
-                for j in range(start+n-2, start-1, -1):
-                    result.append(matrix[m+start-1][j])
-
-                if n > 1:
-                    # 행이 2개 이상, 열이 2개 이상이면 위로 이동
-                    for i in range(start+m-2, start, -1):
-                        result.append(matrix[i][start])
+            # top to bottom
+            for i in range(top, bottom+1):
+                result.append(matrix[i][right])
             
-            m -= 2
-            n -= 2
-            start += 1
+            right -= 1
+
+            # right to left
+            if top <= bottom:
+                for j in range(right, left-1, -1):
+                    result.append(matrix[bottom][j])
+            
+                bottom -= 1
+            
+            # bottom to top
+            if left <= right:
+                for i in range(bottom, top-1, -1):
+                    result.append(matrix[i][left])
         
+                left += 1
+            
         return result
