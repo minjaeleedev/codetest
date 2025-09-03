@@ -1,8 +1,12 @@
 class Solution:
     def reverseSubmatrix(self, grid: List[List[int]], x: int, y: int, k: int) -> List[List[int]]:
-        m,n = len(grid), len(grid[0])
-        for r in range(x, (2*x+k)//2):
+        s = x
+        e = x + k - 1
+        while s < e:
             for c in range(y, y+k):
-                grid[r][c], grid[2*x+k-1-r][c] = grid[2*x+k-1-r][c], grid[r][c]
+                grid[s][c], grid[e][c] = grid[e][c], grid[s][c]
+            
+            s += 1
+            e -= 1
         
         return grid
