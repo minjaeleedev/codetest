@@ -6,15 +6,26 @@
 #         self.right = right
 class Solution:
     def levelOrderBottom(self, root: Optional[TreeNode]) -> List[List[int]]:
-        to_lv = defaultdict(list)
-        def traverse(root, lv):
-            if not root:
-                return
-            
-            traverse(root.left, lv+1)
-            traverse(root.right, lv+1)
-            to_lv[lv].append(root.val)
+        if not root:
+            return []
 
-        traverse(root, 0)
+        res = []
+        lv = -1
+        q = deque([(root,lv+1)])
+        same = [root.val]
+        while q:
+            cur_node, cur_lv = q.popleft()
+            if cur_lv != lv:
+                res.append(same)
+                same = []
+                lv = cur_lv
 
-        return [v for k, v in sorted(to_lv.items(), key=lambda x: -x[0])]
+            if cur_node.left:
+                q.append((cur_node.left, lv+1))
+                same.append(cur_node.left.val)
+            if cur_node.right:
+                q.append((cur_node.right, lv+1))
+                same.append(cur_node.right.val)
+
+
+        return res[::-1]
