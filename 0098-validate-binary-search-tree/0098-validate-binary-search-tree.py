@@ -6,13 +6,18 @@
 #         self.right = right
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        def validate_helper(node, mn, mx):
+        """
+        BST의 inorder traverse는 strictly increasing이어야 함을 이용
+        """
+        def inorder(node):
             if not node:
-                return True
-            
-            if not (node.val > mn and node.val < mx):
-                return False
-            
-            return validate_helper(node.left, mn, node.val) and validate_helper(node.right, node.val, mx)
+                return []
+            return inorder(node.left) + [node.val] + inorder(node.right)
         
-        return validate_helper(root, float('-inf'), float('inf'))
+        values = inorder(root)
+        # 오름차순인지 확인
+        for i in range(1, len(values)):
+            if values[i] <= values[i-1]:
+                return False
+
+        return True
