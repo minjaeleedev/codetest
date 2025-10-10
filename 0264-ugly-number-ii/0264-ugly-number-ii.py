@@ -1,18 +1,18 @@
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
-        heap = []
-        nums = set()
-        heapq.heappush(heap, 1)
-        nums.add(1)
+        dp = [0]*n
+        dp[0] = 1
         
-        cur = 1
-        for _ in range(n):
-            cur = heapq.heappop(heap)
+        # key: prime, value: [index, next number]
+        meta = {p:[0,1*p] for p in [2,3,5]}
+        for i in range(1, n):
+            nxt = min([num for idx, num in meta.values()])
+            dp[i] = nxt
 
-            for p in [2,3,5]:
-                nxt = cur * p
-                if nxt not in nums:
-                    heapq.heappush(heap, nxt)
-                    nums.add(nxt)
+            for prime, v in meta.items():
+                if nxt == v[1]:
+                    v[0] += 1
+                    v[1] = dp[v[0]] * prime
+
+        return dp[n-1]
         
-        return cur
