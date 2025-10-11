@@ -1,14 +1,19 @@
-<h2><a href="https://leetcode.com/problems/maximum-total-damage-with-spell-casting/?envType=daily-question&envId=2025-10-11">3186. Maximum Total Damage With Spell Casting</a></h2><h3>Medium</h3><hr><p>A magician has various spells.</p>
+## [3186. Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/?envType=daily-question&envId=2025-10-11")
 
-<p>You are given an array <code>power</code>, where each element represents the damage of a spell. Multiple spells can have the same damage value.</p>
+Medium
 
-<p>It is a known fact that if a magician decides to cast a spell with a damage of <code>power[i]</code>, they <strong>cannot</strong> cast any spell with a damage of <code>power[i] - 2</code>, <code>power[i] - 1</code>, <code>power[i] + 1</code>, or <code>power[i] + 2</code>.</p>
+A magician has various spells.
 
-<p>Each spell can be cast <strong>only once</strong>.</p>
+You are given an array `power`, where each element represents the damage of a spell. Multiple spells can have the same damage value.
 
-<p>Return the <strong>maximum</strong> possible <em>total damage</em> that a magician can cast.</p>
+It is a known fact that if a magician decides to cast a spell with a damage of `power[i]`, 
+they **cannot** cast any spell with a damage of `power[i] - 2`, `power[i] - 1`, `power[i] + 1`, or `power[i] + 2`.
 
-<p>&nbsp;</p>
+Each spell can be cast **only once**.
+
+Return the **maximum** possible *total damage* that a magician can cast.
+
+
 <p><strong class="example">Example 1:</strong></p>
 
 <div class="example-block">
