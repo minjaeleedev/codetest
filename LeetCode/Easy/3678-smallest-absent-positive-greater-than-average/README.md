@@ -55,3 +55,8 @@ The <strong>average</strong> of an array is defined as the sum of all its elemen
 	<li><code>1 &lt;= nums.length &lt;= 100</code></li>
 	<li><code>-100 &lt;= nums[i] &lt;= 100</code>​​​​​​​</li>
 </ul>
+
+#### Topics
+
+- Array
+- Hash Table

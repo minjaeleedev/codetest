@@ -49,3 +49,10 @@
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 	<li><code>1 &lt;= k &lt;= nums.length</code></li>
 </ul>
+
+#### Topics
+
+- Array
+- Hash Table
+- Greedy
+- Sorting
