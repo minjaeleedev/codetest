@@ -36,3 +36,9 @@ A <strong>subarray</strong> is a contiguous <b>non-empty</b> sequence of element
 	<li><code>1 &lt;= n == nums.length &lt;= 100</code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
+
+#### Topics
+
+- Array
+- Bit Manipulation
+- Brainteaser
