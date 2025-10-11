@@ -50,3 +50,8 @@
 	<li><code>s.length</code> is divisible by <code>k</code>.</li>
 	<li><code>s</code> consists only of lowercase English letters.</li>
 </ul>
+
+#### Topics
+
+- String
+- Simulation

@@ -23,4 +23,6 @@ $1 \le n \le 10^6$
 #### Output
 3 10 5 16 8 4 2 1
     
-    
+## Topics
+
+- implementation

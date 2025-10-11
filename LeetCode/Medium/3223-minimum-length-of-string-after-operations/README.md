@@ -45,3 +45,9 @@ We cannot perform any operations, so we return the length of the original string
 	<li><code>1 &lt;= s.length &lt;= 2 * 10<sup>5</sup></code></li>
 	<li><code>s</code> consists only of lowercase English letters.</li>
 </ul>
+
+#### Topics
+
+- Hash Table
+- String
+- Counting

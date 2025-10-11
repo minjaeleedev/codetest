@@ -40,3 +40,13 @@
 	<li><code>1 &lt;= power.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= power[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
+
+#### Topics
+
+- Array
+- Hash Table
+- Two Pointers
+- Binary Search
+- Dynamic Programming
+- Sorting
+- Counting

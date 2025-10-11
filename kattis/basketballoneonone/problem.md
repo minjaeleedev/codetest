@@ -33,3 +33,7 @@ A
 #### Reference
 
 - [Link](https://open.kattis.com/problems/basketballoneonone)
+
+#### Topics
+
+- Implementation

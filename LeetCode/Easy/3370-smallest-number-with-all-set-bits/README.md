@@ -47,3 +47,8 @@
 <ul>
 	<li><code>1 &lt;= n &lt;= 1000</code></li>
 </ul>
+
+#### Topics
+
+- Math
+- Bit Manipulation

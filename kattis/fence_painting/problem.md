@@ -34,3 +34,8 @@ Please output a single line containing the total length of the fence covered wit
 ```
 
 Here, 6 total units of fence are covered with paint, from $x=4$ all the way through $x=10$.
+
+## Topics
+
+- implementation
+- math

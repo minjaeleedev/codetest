@@ -64,3 +64,11 @@ It can be shown that no other mapping can provide a lower cost.
 	<li><code>1 &lt;= word.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>word</code> consists of lowercase English letters.</li>
 </ul>
+
+#### Topics
+
+- Hash Table
+- String
+- Greedy
+- Sorting
+- Counting

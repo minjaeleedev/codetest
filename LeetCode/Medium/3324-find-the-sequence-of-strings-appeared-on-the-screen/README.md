@@ -48,3 +48,8 @@
 	<li><code>1 &lt;= target.length &lt;= 400</code></li>
 	<li><code>target</code> consists only of lowercase English letters.</li>
 </ul>
+
+#### Topics
+
+- String
+- Simulation
