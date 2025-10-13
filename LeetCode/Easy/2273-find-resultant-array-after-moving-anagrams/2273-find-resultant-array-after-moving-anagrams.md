@@ -1,4 +1,5 @@
-## 2273. Find Resultant Array After Removing Anagrams
+## [2273. Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams)
+
 You are given a 0-indexed string array words, where words[i] consists of lowercase English letters.
 
 In one operation, select any index i such that 0 < i < words.length and words[i - 1] and words[i] are anagrams, and delete words[i] from words. Keep performing this operation as long as you can select an index that satisfies the conditions.
@@ -7,7 +8,7 @@ Return words after performing all operations. It can be shown that selecting the
 
 An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase using all the original letters exactly once. For example, "dacb" is an anagram of "abdc".
 
-### Example 1:
+#### Example 1:
 
 Input: words = ["abba","baba","bbaa","cd","cd"]
 Output: ["abba","cd"]
@@ -21,7 +22,7 @@ One of the ways we can obtain the resultant array is by using the following oper
   Now words = ["abba","cd"].
 We can no longer perform any operations, so ["abba","cd"] is the final answer.
 
-### Example 2:
+#### Example 2:
 
 Input: words = ["a","b","c","d","e"]
 Output: ["a","b","c","d","e"]
@@ -29,8 +30,15 @@ Explanation:
 No two adjacent strings in words are anagrams of each other, so no operations are performed.
  
 
-### Constraints:
+#### Constraints:
 
-1 <= words.length <= 100
-1 <= words[i].length <= 10
-words[i] consists of lowercase English letters.
+- 1 <= words.length <= 100
+- 1 <= words[i].length <= 10
+- words[i] consists of lowercase English letters.
+
+#### Topics
+
+- Array
+- Hash Table
+- String
+- Sorting
