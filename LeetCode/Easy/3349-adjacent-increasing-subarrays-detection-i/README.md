@@ -1,42 +1,39 @@
-<h2><a href="https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i">3349. Adjacent Increasing Subarrays Detection I</a></h2><h3>Easy</h3><hr><p>Given an array <code>nums</code> of <code>n</code> integers and an integer <code>k</code>, determine whether there exist <strong>two</strong> <strong>adjacent</strong> <span data-keyword="subarray-nonempty">subarrays</span> of length <code>k</code> such that both subarrays are <strong>strictly</strong> <strong>increasing</strong>. Specifically, check if there are <strong>two</strong> subarrays starting at indices <code>a</code> and <code>b</code> (<code>a &lt; b</code>), where:</p>
+## [3349. Adjacent Increasing Subarrays Detection I](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/description)
 
-<ul>
-	<li>Both subarrays <code>nums[a..a + k - 1]</code> and <code>nums[b..b + k - 1]</code> are <strong>strictly increasing</strong>.</li>
-	<li>The subarrays must be <strong>adjacent</strong>, meaning <code>b = a + k</code>.</li>
-</ul>
+Easy
 
-<p>Return <code>true</code> if it is <em>possible</em> to find <strong>two </strong>such subarrays, and <code>false</code> otherwise.</p>
+Given an array nums of `n` integers and an integer `k`, determine whether there exist **two adjacent** subarrays of length `k` such that both subarrays are **strictly increasing**.
+Specifically, check if there are two subarrays starting at indices a and b (a < b), where:
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+- Both subarrays nums[a..a + k - 1] and nums[b..b + k - 1] are strictly increasing. 
+- The subarrays must be adjacent, meaning b = a + k.
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [2,5,7,8,9,2,3,4,3,1], k = 3</span></p>
+Return true if it is possible to find two such subarrays, and false otherwise.
 
-<p><strong>Output:</strong> <span class="example-io">true</span></p>
+#### Example 1:
 
-<p><strong>Explanation:</strong></p>
+> **Input**: nums = [2,5,7,8,9,2,3,4,3,1], k = 3
+> 
+> **Output**: true
+> 
+> **Explanation**:
+> 
+> The subarray starting at index 2 is [7, 8, 9], which is strictly increasing.
+> The subarray starting at index 5 is [2, 3, 4], which is also strictly increasing.
+> These two subarrays are adjacent, so the result is true.
 
-<ul>
-	<li>The subarray starting at index <code>2</code> is <code>[7, 8, 9]</code>, which is strictly increasing.</li>
-	<li>The subarray starting at index <code>5</code> is <code>[2, 3, 4]</code>, which is also strictly increasing.</li>
-	<li>These two subarrays are adjacent, so the result is <code>true</code>.</li>
-</ul>
-</div>
+#### Example 2:
 
-<p><strong class="example">Example 2:</strong></p>
+> **Input**: nums = [1,2,3,4,4,4,4,5,6,7], k = 5
+>
+> **Output**: false
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2,3,4,4,4,4,5,6,7], k = 5</span></p>
+#### Constraints:
 
-<p><strong>Output:</strong> <span class="example-io">false</span></p>
-</div>
+- `2 <= nums.length <= 100`
+- `1 < 2 * k <= nums.length`
+- `-1000 <= nums[i] <= 1000`
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+#### Topics
 
-<ul>
-	<li><code>2 &lt;= nums.length &lt;= 100</code></li>
-	<li><code>1 &lt; 2 * k &lt;= nums.length</code></li>
-	<li><code>-1000 &lt;= nums[i] &lt;= 1000</code></li>
-</ul>
+- Array
