@@ -1,3 +1,38 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: 3539
+title: "Find Sum of Array Product of Magical Sequences"
+url: "https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/"
+difficulty: Hard
+topics:
+  - Array
+  - Math
+  - Dynamic Programming
+  - Bit Manipulation
+  - Combinatorics
+  - Bitmask
+
+# Solution Tracking
+status: Solved
+date-attempted: 2025-10-12
+date-solved: 2025-10-12
+attempts: 1
+
+# Personal Notes
+rating: 9
+notes: "Very complex DP with combinatorics. Review factorial precomputation and modular arithmetic patterns. Key insight: DP state tracks (position, selected count, set bits, already used positions)."
+similar-problems:
+  - platform: LeetCode
+    id: 1434
+  - platform: LeetCode
+    id: 1735
+
+# Review Schedule
+next-review: 2025-10-20
+review-count: 0
+---
+
 # [3539. Find Sum of Array Product of Magical Sequences](https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/description/?envType=daily-question&envId=2025-10-12)
 
 Hard

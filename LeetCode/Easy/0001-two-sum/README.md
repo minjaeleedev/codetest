@@ -1,3 +1,30 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: 1
+title: "Two Sum"
+url: "https://leetcode.com/problems/two-sum/"
+difficulty: Easy
+topics:
+  - Array
+  - Hash Table
+
+# Solution Tracking
+status: Solved
+date-attempted: 2023-02-21
+date-solved: 2023-02-21
+attempts: 1
+
+# Personal Notes
+rating: 1
+notes: "Classic problem. Use hash map to store complements. Watch out for using same element twice."
+similar-problems: null
+
+# Review Schedule
+next-review: null
+review-count: 0
+---
+
 <h2><a href="https://leetcode.com/problems/two-sum/">1. Two Sum</a></h2><h3>Easy</h3><hr><div><p>Given an array of integers <code>nums</code>&nbsp;and an integer <code>target</code>, return <em>indices of the two numbers such that they add up to <code>target</code></em>.</p>
 
 <p>You may assume that each input would have <strong><em>exactly</em> one solution</strong>, and you may not use the <em>same</em> element twice.</p>
