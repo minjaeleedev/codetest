@@ -1,7 +1,7 @@
 ---
 # Problem Identification
 platform: LeetCode
-platform-problem-id: 2598
+platform-problem-id: "2598"
 title: "Smallest Missing Non-negative Integer After Operations"
 url: "https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/"
 difficulty: Medium

@@ -1,7 +1,7 @@
 ---
 # Problem Identification
 platform: LeetCode
-platform-problem-id: 3539
+platform-problem-id: "3539"
 title: "Find Sum of Array Product of Magical Sequences"
 url: "https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/"
 difficulty: Hard

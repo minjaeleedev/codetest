@@ -1,6 +1,6 @@
 ---
 platform: LeetCode  # LeetCode | Baekjoon | Kattis | Codeforces | AtCoder | HackerRank | etc.
-platform-problem-id: 3003
+platform-problem-id: "3003"
 title: "Maximize the Number of Partitions After Operations"
 url: "https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations"
 difficulty: Hard

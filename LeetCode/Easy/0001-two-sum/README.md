@@ -1,7 +1,7 @@
 ---
 # Problem Identification
 platform: LeetCode
-platform-problem-id: 1
+platform-problem-id: "1"
 title: "Two Sum"
 url: "https://leetcode.com/problems/two-sum/"
 difficulty: Easy
