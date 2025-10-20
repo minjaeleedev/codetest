@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "40"
+title: "Combination Sum II"
+url: "https://leetcode.com/problems/combination-sum-ii"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/combination-sum-ii">40. Combination Sum II</a></h2><h3>Medium</h3><hr><p>Given a collection of candidate numbers (<code>candidates</code>) and a target number (<code>target</code>), find all unique combinations in <code>candidates</code>&nbsp;where the candidate numbers sum to <code>target</code>.</p>
 
 <p>Each number in <code>candidates</code>&nbsp;may only be used <strong>once</strong> in the combination.</p>

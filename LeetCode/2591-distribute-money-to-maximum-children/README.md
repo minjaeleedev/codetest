@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "2591"
+title: "Distribute Money to Maximum Children"
+url: "https://leetcode.com/problems/distribute-money-to-maximum-children"
+difficulty: Easy
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/distribute-money-to-maximum-children">2591. Distribute Money to Maximum Children</a></h2><h3>Easy</h3><hr><p>You are given an integer <code>money</code> denoting the amount of money (in dollars) that you have and another integer <code>children</code> denoting the number of children that you must distribute the money to.</p>
 
 <p>You have to distribute the money according to the following rules:</p>

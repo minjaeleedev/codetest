@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "986"
+title: "Interval List Intersections"
+url: "https://leetcode.com/problems/interval-list-intersections"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/interval-list-intersections">986. Interval List Intersections</a></h2><h3>Medium</h3><hr><p>You are given two lists of closed intervals, <code>firstList</code> and <code>secondList</code>, where <code>firstList[i] = [start<sub>i</sub>, end<sub>i</sub>]</code> and <code>secondList[j] = [start<sub>j</sub>, end<sub>j</sub>]</code>. Each list of intervals is pairwise <strong>disjoint</strong> and in <strong>sorted order</strong>.</p>
 
 <p>Return <em>the intersection of these two interval lists</em>.</p>

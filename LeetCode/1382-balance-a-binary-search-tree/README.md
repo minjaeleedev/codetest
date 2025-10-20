@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "1382"
+title: "Balance a Binary Search Tree"
+url: "https://leetcode.com/problems/balance-a-binary-search-tree/"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/balance-a-binary-search-tree/">1382. Balance a Binary Search Tree</a></h2><h3>Medium</h3><hr><p>Given the <code>root</code> of a binary search tree, return <em>a <strong>balanced</strong> binary search tree with the same node values</em>. If there is more than one answer, return <strong>any of them</strong>.</p>
 
 <p>A binary search tree is <strong>balanced</strong> if the depth of the two subtrees of every node never differs by more than <code>1</code>.</p>

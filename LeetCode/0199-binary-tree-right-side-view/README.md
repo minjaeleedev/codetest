@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "199"
+title: "Binary Tree Right Side View"
+url: "https://leetcode.com/problems/binary-tree-right-side-view"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/binary-tree-right-side-view">199. Binary Tree Right Side View</a></h2><h3>Medium</h3><hr><p>Given the <code>root</code> of a binary tree, imagine yourself standing on the <strong>right side</strong> of it, return <em>the values of the nodes you can see ordered from top to bottom</em>.</p>
 
 <p>&nbsp;</p>

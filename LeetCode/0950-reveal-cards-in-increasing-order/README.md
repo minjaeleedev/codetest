@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "950"
+title: "Reveal Cards In Increasing Order"
+url: "https://leetcode.com/problems/reveal-cards-in-increasing-order"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/reveal-cards-in-increasing-order">950. Reveal Cards In Increasing Order</a></h2><h3>Medium</h3><hr><p>You are given an integer array <code>deck</code>. There is a deck of cards where every card has a unique integer. The integer on the <code>i<sup>th</sup></code> card is <code>deck[i]</code>.</p>
 
 <p>You can order the deck in any order you want. Initially, all the cards start face down (unrevealed) in one deck.</p>

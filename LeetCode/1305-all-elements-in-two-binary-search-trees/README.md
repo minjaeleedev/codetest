@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "1305"
+title: "All Elements in Two Binary Search Trees"
+url: "https://leetcode.com/problems/all-elements-in-two-binary-search-trees"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/all-elements-in-two-binary-search-trees">1305. All Elements in Two Binary Search Trees</a></h2><h3>Medium</h3><hr><p>Given two binary search trees <code>root1</code> and <code>root2</code>, return <em>a list containing all the integers from both trees sorted in <strong>ascending</strong> order</em>.</p>
 
 <p>&nbsp;</p>

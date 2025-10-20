@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "2225"
+title: "Find Players With Zero or One Losses"
+url: "https://leetcode.com/problems/find-players-with-zero-or-one-losses"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/find-players-with-zero-or-one-losses">2225. Find Players With Zero or One Losses</a></h2><h3>Medium</h3><hr><p>You are given an integer array <code>matches</code> where <code>matches[i] = [winner<sub>i</sub>, loser<sub>i</sub>]</code> indicates that the player <code>winner<sub>i</sub></code> defeated player <code>loser<sub>i</sub></code> in a match.</p>
 
 <p>Return <em>a list </em><code>answer</code><em> of size </em><code>2</code><em> where:</em></p>

@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "1441"
+title: "Build an Array With Stack Operations"
+url: "https://leetcode.com/problems/build-an-array-with-stack-operations"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/build-an-array-with-stack-operations">1441. Build an Array With Stack Operations</a></h2><h3>Medium</h3><hr><p>You are given an integer array <code>target</code> and an integer <code>n</code>.</p>
 
 <p>You have an empty stack with the two following operations:</p>

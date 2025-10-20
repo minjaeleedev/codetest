@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "1110"
+title: "Delete Nodes And Return Forest"
+url: "https://leetcode.com/problems/delete-nodes-and-return-forest"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/delete-nodes-and-return-forest">1110. Delete Nodes And Return Forest</a></h2><h3>Medium</h3><hr><p>Given the <code>root</code> of a binary tree, each node in the tree has a distinct value.</p>
 
 <p>After deleting all nodes with a value in <code>to_delete</code>, we are left with a forest (a disjoint union of trees).</p>

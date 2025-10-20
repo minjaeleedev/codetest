@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "2610"
+title: "Convert an Array Into a 2D Array With Conditions"
+url: "https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions">2610. Convert an Array Into a 2D Array With Conditions</a></h2><h3>Medium</h3><hr><p>You are given an integer array <code>nums</code>. You need to create a 2D array from <code>nums</code> satisfying the following conditions:</p>
 
 <ul>

@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "2390"
+title: "Removing Stars From a String"
+url: "https://leetcode.com/problems/removing-stars-from-a-string"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/removing-stars-from-a-string">2390. Removing Stars From a String</a></h2><h3>Medium</h3><hr><p>You are given a string <code>s</code>, which contains stars <code>*</code>.</p>
 
 <p>In one operation, you can:</p>

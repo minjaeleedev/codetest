@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "1381"
+title: "Design a Stack With Increment Operation"
+url: "https://leetcode.com/problems/design-a-stack-with-increment-operation"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/design-a-stack-with-increment-operation">1381. Design a Stack With Increment Operation</a></h2><h3>Medium</h3><hr><p>Design a stack that supports increment operations on its elements.</p>
 
 <p>Implement the <code>CustomStack</code> class:</p>

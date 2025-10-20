@@ -1,0 +1,82 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "3095"
+title: "Shortest Subarray With OR at Least K I"
+url: "https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i/"
+difficulty: None
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
+## 3095. Shortest Subarray With OR at Least K I
+You are given an array nums of non-negative integers and an integer k.
+
+An array is called special if the bitwise OR of all of its elements is at least k.
+
+Return the length of the shortest special non-empty subarray of nums, or return -1 if no special subarray exists.
+
+### Example 1:
+
+> Input: nums = [1,2,3], k = 2
+> 
+> Output: 1
+> 
+> Explanation:
+> 
+> The subarray [3] has OR value of 3. Hence, we return 1.
+
+### Example 2:
+
+> Input: nums = [2,1,8], k = 10
+> 
+> Output: 3
+> 
+> Explanation:
+> 
+> The subarray [2,1,8] has OR value of 11. Hence, we return 3.
+
+### Example 3:
+
+> Input: nums = [1,2], k = 0
+> 
+> Output: 1
+> 
+> Explanation:
+> 
+> The subarray [1] has OR value of 1. Hence, we return 1.
+
+### Constraints:
+
+- 1 <= nums.length <= 50
+- 0 <= nums[i] <= 50
+- 0 <= k < 64
+
+### Topics
+- Array
+- Bit Manipulation
+- Sliding Window
+
+### Hint
+
+- For each nums[i], we can maintain each subarray’s bitwise OR result ending with it.
+- The property of bitwise OR is that it never unsets any bits and only sets new bits
+- So the number of different results for each nums[i] is at most the number of bits 32.

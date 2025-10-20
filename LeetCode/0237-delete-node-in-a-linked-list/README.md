@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "237"
+title: "Delete Node in a Linked List"
+url: "https://leetcode.com/problems/delete-node-in-a-linked-list"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/delete-node-in-a-linked-list">237. Delete Node in a Linked List</a></h2><h3>Medium</h3><hr><p>There is a singly-linked list <code>head</code> and we want to delete a node <code>node</code> in it.</p>
 
 <p>You are given the node to be deleted <code>node</code>. You will <strong>not be given access</strong> to the first node of <code>head</code>.</p>

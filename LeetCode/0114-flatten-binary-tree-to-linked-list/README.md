@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "114"
+title: "Flatten Binary Tree to Linked List"
+url: "https://leetcode.com/problems/flatten-binary-tree-to-linked-list"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/flatten-binary-tree-to-linked-list">114. Flatten Binary Tree to Linked List</a></h2><h3>Medium</h3><hr><p>Given the <code>root</code> of a binary tree, flatten the tree into a &quot;linked list&quot;:</p>
 
 <ul>

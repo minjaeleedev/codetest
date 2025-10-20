@@ -15,14 +15,17 @@ attempts:
 
 # Personal Notes
 rating:   # 1-10 difficulty rating (personal)
+needs-review: false  # Set to true for problems that need review
+tags: []  # Personal tags: interview-prep, tricky, favorite, etc.
 notes: ""
 similar-problems:
   - platform:
     id:
 
 # Review Schedule (for spaced repetition)
-next-review:
+next-review: null  # Auto-managed by review script
 review-count: 0
+last-reviewed: null
 ---
 
 # Problem Description

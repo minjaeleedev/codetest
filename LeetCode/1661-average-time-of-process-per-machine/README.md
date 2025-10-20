@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "1661"
+title: "Average Time of Process per Machine"
+url: "https://leetcode.com/problems/average-time-of-process-per-machine"
+difficulty: Easy
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/average-time-of-process-per-machine">1661. Average Time of Process per Machine</a></h2><h3>Easy</h3><hr><p>Table: <code>Activity</code></p>
 
 <pre>

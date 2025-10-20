@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "2396"
+title: "Strictly Palindromic Number"
+url: "https://leetcode.com/problems/strictly-palindromic-number"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/strictly-palindromic-number">2396. Strictly Palindromic Number</a></h2><h3>Medium</h3><hr><p>An integer <code>n</code> is <strong>strictly palindromic</strong> if, for every base <code>b</code> between <code>2</code> and <code>n - 2</code> (inclusive), the string representation of the integer <code>n</code> in base <code>b</code> is palindromic.</p>
 
 <p>Given an integer <code>n</code>, return <code>true</code> <em>if </em><code>n</code><em> is strictly palindromic and </em><code>false</code><em> otherwise.</em></p>

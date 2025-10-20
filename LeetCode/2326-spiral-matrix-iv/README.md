@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "2326"
+title: "Spiral Matrix IV"
+url: "https://leetcode.com/problems/spiral-matrix-iv"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/spiral-matrix-iv">2326. Spiral Matrix IV</a></h2><h3>Medium</h3><hr><p>You are given two integers <code>m</code> and <code>n</code>, which represent the dimensions of a matrix.</p>
 
 <p>You are also given the <code>head</code> of a linked list of integers.</p>

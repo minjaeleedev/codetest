@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "921"
+title: "Minimum Add to Make Parentheses Valid"
+url: "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/minimum-add-to-make-parentheses-valid">921. Minimum Add to Make Parentheses Valid</a></h2><h3>Medium</h3><hr><p>A parentheses string is valid if and only if:</p>
 
 <ul>

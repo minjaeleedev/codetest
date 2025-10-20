@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "1887"
+title: "Reduction Operations to Make the Array Elements Equal"
+url: "https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal">1887. Reduction Operations to Make the Array Elements Equal</a></h2><h3>Medium</h3><hr><p>Given an integer array <code>nums</code>, your goal is to make all elements in <code>nums</code> equal. To complete one operation, follow these steps:</p>
 
 <ol>

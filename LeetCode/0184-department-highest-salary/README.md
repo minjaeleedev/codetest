@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "184"
+title: "Department Highest Salary"
+url: "https://leetcode.com/problems/department-highest-salary"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/department-highest-salary">184. Department Highest Salary</a></h2><h3>Medium</h3><hr><p>Table: <code>Employee</code></p>
 
 <pre>

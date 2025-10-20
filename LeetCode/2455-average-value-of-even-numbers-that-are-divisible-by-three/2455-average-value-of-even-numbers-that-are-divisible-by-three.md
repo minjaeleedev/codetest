@@ -1,0 +1,51 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "2455"
+title: "Average Value of Even Numbers That Are Divisible by Three"
+url: "https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/"
+difficulty: None
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
+## 2455. Average Value of Even Numbers That Are Divisible by Three
+
+Given an integer array nums of positive integers, return the average value of all even integers that are divisible by 3.
+
+Note that the average of n elements is the sum of the n elements divided by n and rounded down to the nearest integer.
+
+### Example 1:
+
+> Input: nums = [1,3,6,10,12,15]<br/>
+> Output: 9<br/>
+> Explanation: 6 and 12 are even numbers that are divisible by 3. (6 + 12) / 2 = 9.
+
+### Example 2:
+
+> Input: nums = [1,2,4,7,10]<br/>
+> Output: 0<br/>
+> Explanation: There is no single number that satisfies the requirement, so return 0.
+ 
+### Constraints:
+
+- 1 <= nums.length <= 1000
+- 1 <= nums[i] <= 1000

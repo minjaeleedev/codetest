@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "2415"
+title: "Reverse Odd Levels of Binary Tree"
+url: "https://leetcode.com/problems/reverse-odd-levels-of-binary-tree"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/reverse-odd-levels-of-binary-tree">2415. Reverse Odd Levels of Binary Tree</a></h2><h3>Medium</h3><hr><p>Given the <code>root</code> of a <strong>perfect</strong> binary tree, reverse the node values at each <strong>odd</strong> level of the tree.</p>
 
 <ul>

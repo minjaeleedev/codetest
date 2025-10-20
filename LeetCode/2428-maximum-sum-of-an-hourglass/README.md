@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "2428"
+title: "Maximum Sum of an Hourglass"
+url: "https://leetcode.com/problems/maximum-sum-of-an-hourglass"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/maximum-sum-of-an-hourglass">2428. Maximum Sum of an Hourglass</a></h2><h3>Medium</h3><hr><p>You are given an <code>m x n</code> integer matrix <code>grid</code>.</p>
 
 <p>We define an <strong>hourglass</strong> as a part of the matrix with the following form:</p>

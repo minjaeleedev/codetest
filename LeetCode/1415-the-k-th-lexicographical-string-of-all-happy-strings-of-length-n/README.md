@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "1415"
+title: "The k-th Lexicographical String of All Happy Strings of Length n"
+url: "https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n">1415. The k-th Lexicographical String of All Happy Strings of Length n</a></h2><h3>Medium</h3><hr><p>A <strong>happy string</strong> is a string that:</p>
 
 <ul>

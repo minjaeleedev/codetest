@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "1817"
+title: "Finding the Users Active Minutes"
+url: "https://leetcode.com/problems/finding-the-users-active-minutes"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/finding-the-users-active-minutes">1817. Finding the Users Active Minutes</a></h2><h3>Medium</h3><hr><p>You are given the logs for users&#39; actions on LeetCode, and an integer <code>k</code>. The logs are represented by a 2D integer array <code>logs</code> where each <code>logs[i] = [ID<sub>i</sub>, time<sub>i</sub>]</code> indicates that the user with <code>ID<sub>i</sub></code> performed an action at the minute <code>time<sub>i</sub></code>.</p>
 
 <p><strong>Multiple users</strong> can perform actions simultaneously, and a single user can perform <strong>multiple actions</strong> in the same minute.</p>

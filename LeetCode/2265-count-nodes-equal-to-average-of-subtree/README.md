@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "2265"
+title: "Count Nodes Equal to Average of Subtree"
+url: "https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree">2265. Count Nodes Equal to Average of Subtree</a></h2><h3>Medium</h3><hr><p>Given the <code>root</code> of a binary tree, return <em>the number of nodes where the value of the node is equal to the <strong>average</strong> of the values in its <strong>subtree</strong></em>.</p>
 
 <p><strong>Note:</strong></p>

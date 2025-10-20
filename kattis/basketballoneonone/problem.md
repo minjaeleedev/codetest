@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: Kattis
+platform-problem-id: "None"
+title: "None"
+url: "None"
+difficulty: None
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 # Basketball One-on-One
 
 Alice and Barbara played some friendly games of one-on-one basketball after work, and you agreed to help them keep score. 

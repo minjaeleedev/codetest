@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "1561"
+title: "Maximum Number of Coins You Can Get"
+url: "https://leetcode.com/problems/maximum-number-of-coins-you-can-get"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/maximum-number-of-coins-you-can-get">1561. Maximum Number of Coins You Can Get</a></h2><h3>Medium</h3><hr><p>There are <code>3n</code> piles of coins of varying size, you and your friends will take piles of coins as follows:</p>
 
 <ul>

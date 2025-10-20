@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "1302"
+title: "Deepest Leaves Sum"
+url: "https://leetcode.com/problems/deepest-leaves-sum"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/deepest-leaves-sum">1302. Deepest Leaves Sum</a></h2><h3>Medium</h3><hr>Given the <code>root</code> of a binary tree, return <em>the sum of values of its deepest leaves</em>.
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>

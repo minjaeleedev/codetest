@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "637"
+title: "Average of Levels in Binary Tree"
+url: "https://leetcode.com/problems/average-of-levels-in-binary-tree"
+difficulty: Easy
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/average-of-levels-in-binary-tree">637. Average of Levels in Binary Tree</a></h2><h3>Easy</h3><hr>Given the <code>root</code> of a binary tree, return <em>the average value of the nodes on each level in the form of an array</em>. Answers within <code>10<sup>-5</sup></code> of the actual answer will be accepted.
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>

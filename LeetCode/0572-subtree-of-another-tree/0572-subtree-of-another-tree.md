@@ -1,0 +1,63 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "572"
+title: "Subtree of Another Tree"
+url: "https://leetcode.com/problems/subtree-of-another-tree/"
+difficulty: None
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
+## 572. Subtree of Another Tree
+Given the roots of two binary trees root and subRoot, return true if there is a subtree of root with the same structure and node values of subRoot and false otherwise.
+
+A subtree of a binary tree tree is a tree that consists of a node in tree and all of this node's descendants. The tree tree could also be considered as a subtree of itself.
+
+### Example 1:
+
+![](./subtree1-tree.jpg)
+
+> Input: root = [3,4,5,1,2], subRoot = [4,1,2]<br/>
+> Output: true
+
+### Example 2:
+
+
+![](./subtree2-tree.jpg)
+
+> Input: root = [3,4,5,1,2,null,null,null,null,0], subRoot = [4,1,2]<br/>
+> Output: false
+
+### Constraints:
+
+- The number of nodes in the root tree is in the range [1, 2000].
+- The number of nodes in the subRoot tree is in the range [1, 1000].
+- -10^4 <= root.val <= 10^4
+- -10^4 <= subRoot.val <= 10^4
+
+### Topics
+
+- Tree
+- Depth-First Search
+- String Matching
+- Binary Tree
+- Hash Function

@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "2487"
+title: "Remove Nodes From Linked List"
+url: "https://leetcode.com/problems/remove-nodes-from-linked-list"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/remove-nodes-from-linked-list">2487. Remove Nodes From Linked List</a></h2><h3>Medium</h3><hr><p>You are given the <code>head</code> of a linked list.</p>
 
 <p>Remove every node which has a node with a greater value anywhere to the right side of it.</p>

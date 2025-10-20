@@ -1,3 +1,32 @@
+---
+# Problem Identification
+platform: LeetCode
+platform-problem-id: "2023"
+title: "Number of Pairs of Strings With Concatenation Equal to Target"
+url: "https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target"
+difficulty: Medium
+topics:
+  -
+
+# Solution Tracking
+status: Solved
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:
+needs-review: false
+tags: []
+notes: ""
+similar-problems: []
+
+# Review Schedule (for spaced repetition)
+next-review: null
+review-count: 0
+last-reviewed: null
+---
+
 <h2><a href="https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target">2023. Number of Pairs of Strings With Concatenation Equal to Target</a></h2><h3>Medium</h3><hr><p>Given an array of <strong>digit</strong> strings <code>nums</code> and a <strong>digit</strong> string <code>target</code>, return <em>the number of pairs of indices </em><code>(i, j)</code><em> (where </em><code>i != j</code><em>) such that the <strong>concatenation</strong> of </em><code>nums[i] + nums[j]</code><em> equals </em><code>target</code>.</p>
 
 <p>&nbsp;</p>
