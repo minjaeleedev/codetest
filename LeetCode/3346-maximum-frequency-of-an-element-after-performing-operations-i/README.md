@@ -22,7 +22,7 @@ attempts: 1
 rating: 5
 needs-review: true
 tags: []
-notes: "Binary Search Lower Bound, Upper Bound"
+notes: "1. Enumerating numbers, 2. Binary search for lower bound, upper bound"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
