@@ -1,10 +1,10 @@
 ---
 # Problem Identification
 platform: LeetCode
-platform-problem-id: "3346"
-title: "Maximum Frequency of an Element After Performing Operations I"
-url: "https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i"
-difficulty: Medium
+platform-problem-id: "3347"
+title: "Maximum Frequency of an Element After Performing Operations II"
+url: "https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii"
+difficulty: Hard
 topics:
   - Array
   - Binary Search
@@ -14,24 +14,24 @@ topics:
 
 # Solution Tracking
 status: Solved
-date-attempted: 2025-10-21
-date-solved: 2025-10-21
+date-attempted: 2025-10-22
+date-solved: 2025-10-22
 attempts: 1
 
 # Personal Notes
-rating: 5
+rating: 9
 needs-review: true
 tags: []
-notes: "1. Enumerating numbers, 2. Binary search for lower bound, upper bound"
+notes: "Binary search for lower bound, upper bound"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
-next-review: 2025-10-22
+next-review: 2025-10-30
 review-count: 0
 last-reviewed: null
 ---
 
-## [3346. Maximum Frequency of an Element After Performing Operations I](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i)
+## [3346. Maximum Frequency of an Element After Performing Operations II](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii)
 
 Medium
 
@@ -73,6 +73,6 @@ Return the **maximum** possible frequency of any element in nums after performin
 #### Constraints:
 
 - `1 <= nums.length <= 10^5`
-- `1 <= nums[i] <= 10^5`
-- `0 <= k <= 10^5`
+- `1 <= nums[i] <= 10^9`
+- `0 <= k <= 10^9`
 - `0 <= numOperations <= nums.length`
