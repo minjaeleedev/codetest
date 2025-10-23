@@ -6,19 +6,22 @@ title: "Check If Digits Are Equal in String After Operations I"
 url: "https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i"
 difficulty: Easy
 topics:
-  -
+  - Math
+  - String
+  - Simulation
+  - Combinatorics
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2025-10-23
+date-solved: 2025-10-23
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 1
 needs-review: false
 tags: []
-notes: ""
+notes: "Easy Problem With O(N^2)"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
@@ -27,17 +30,16 @@ review-count: 0
 last-reviewed: null
 ---
 
-<h2><a href="https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i">3461. Check If Digits Are Equal in String After Operations I</a></h2><h3>Easy</h3><hr><p>You are given a string <code>s</code> consisting of digits. Perform the following operation repeatedly until the string has <strong>exactly</strong> two digits:</p>
+## 3461. [3461. Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i)
 
-<ul>
-	<li>For each pair of consecutive digits in <code>s</code>, starting from the first digit, calculate a new digit as the sum of the two digits <strong>modulo</strong> 10.</li>
-	<li>Replace <code>s</code> with the sequence of newly calculated digits, <em>maintaining the order</em> in which they are computed.</li>
-</ul>
+You are given a string s consisting of digits. Perform the following operation repeatedly until the string has exactly two digits:
 
-<p>Return <code>true</code> if the final two digits in <code>s</code> are the <strong>same</strong>; otherwise, return <code>false</code>.</p>
+- For each pair of consecutive digits in <code>s</code>, starting from the first digit, calculate a new digit as the sum of the two digits <strong>modulo</strong> 10.</li>
+- Replace <code>s</code> with the sequence of newly calculated digits, <em>maintaining the order</em> in which they are computed.</li>
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+Return <code>true</code> if the final two digits in <code>s</code> are the <strong>same</strong>; otherwise, return <code>false</code>.
+
+#### Example 1
 
 <div class="example-block">
 <p><strong>Input:</strong> <span class="example-io">s = &quot;3902&quot;</span></p>
@@ -67,7 +69,7 @@ last-reviewed: null
 </ul>
 </div>
 
-<p><strong class="example">Example 2:</strong></p>
+#### Example 2
 
 <div class="example-block">
 <p><strong>Input:</strong> <span class="example-io">s = &quot;34789&quot;</span></p>
@@ -85,10 +87,7 @@ last-reviewed: null
 </ul>
 </div>
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+#### Constraints
 
-<ul>
-	<li><code>3 &lt;= s.length &lt;= 100</code></li>
-	<li><code>s</code> consists of only digits.</li>
-</ul>
+- `3 <= s.length <= 100`
+- `s` consists of only digits.
