@@ -6,28 +6,38 @@ title: "Number of Laser Beams in a Bank"
 url: "https://leetcode.com/problems/number-of-laser-beams-in-a-bank"
 difficulty: Medium
 topics:
-  -
+  - Array
+  - Math
+  - String
+  - Matrix
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2025-02-21
+date-solved: 2025-02-21
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 1
 needs-review: false
 tags: []
-notes: ""
+notes: "str.count is faster than loop"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
 next-review: null
-review-count: 0
-last-reviewed: null
+review-count: 1
+last-reviewed: 2025-10-27
 ---
 
-<h2><a href="https://leetcode.com/problems/number-of-laser-beams-in-a-bank">2125. Number of Laser Beams in a Bank</a></h2><h3>Medium</h3><hr><p>Anti-theft security devices are activated inside a bank. You are given a <strong>0-indexed</strong> binary string array <code>bank</code> representing the floor plan of the bank, which is an <code>m x n</code> 2D matrix. <code>bank[i]</code> represents the <code>i<sup>th</sup></code> row, consisting of <code>&#39;0&#39;</code>s and <code>&#39;1&#39;</code>s. <code>&#39;0&#39;</code> means the cell is empty, while<code>&#39;1&#39;</code> means the cell has a security device.</p>
+## [2125. Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank)
+
+Medium
+
+Anti-theft security devices are activated inside a bank. 
+You are given a **0-indexed** binary string array <code>bank</code> representing the floor plan of the bank, which is an <code>m x n</code> 2D matrix. 
+<code>bank[i]</code> represents the <code>i<sup>th</sup></code> row, consisting of <code>&#39;0&#39;</code>s and <code>&#39;1&#39;</code>s. 
+<code>&#39;0&#39;</code> means the cell is empty, while<code>&#39;1&#39;</code> means the cell has a security device.</p>
 
 <p>There is <strong>one</strong> laser beam between any <strong>two</strong> security devices <strong>if both</strong> conditions are met:</p>
 
@@ -68,7 +78,8 @@ This is because the 2<sup>nd</sup> row contains security devices, which breaks t
 </pre>
 
 <p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+
+#### Constraints
 
 <ul>
 	<li><code>m == bank.length</code></li>
