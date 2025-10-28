@@ -6,28 +6,32 @@ title: "Make Array Elements Equal to Zero"
 url: "https://leetcode.com/problems/make-array-elements-equal-to-zero"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Simulation
+  - Prefix Sum
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2024-11-17
+date-solved: 2024-11-17
+attempts: 2
 
 # Personal Notes
-rating:
-needs-review: false
+rating: 3
+needs-review: true
 tags: []
-notes: ""
+notes: "two prefix sum"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
-next-review: null
-review-count: 0
-last-reviewed: null
+next-review: 2025-11-11
+review-count: 1
+last-reviewed: 2025-10-28
 ---
 
-<h2><a href="https://leetcode.com/problems/make-array-elements-equal-to-zero">3354. Make Array Elements Equal to Zero</a></h2><h3>Easy</h3><hr><p>You are given an integer array <code>nums</code>.</p>
+## [3354. Make Array Elements Equal to Zero](https://leetcode.com/problems/make-array-elements-equal-to-zero)
+Easy
+You are given an integer array <code>nums</code>.
 
 <p>Start by selecting a starting position <code>curr</code> such that <code>nums[curr] == 0</code>, and choose a movement <strong>direction</strong> of&nbsp;either left or right.</p>
 
@@ -49,47 +53,31 @@ last-reviewed: null
 
 <p>Return the number of possible <strong>valid</strong> selections.</p>
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+#### Example 1
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,0,2,0,3]</span></p>
+> **Input**: `nums = [1,0,2,0,3]`
+> 
+> **Output**: 2
+> 
+> **Explanation**:
+> 
+> The only possible valid selections are the following:
+> - Choose `curr = 3`, and a movement direction to the left.
+> 	- `[1,0,2,0,3] -> [1,0,2,0,3] -> [1,0,1,0,3] -> [1,0,1,0,3] -> [1,0,1,0,2] -> [1,0,1,0,2] -> [1,0,0,0,2] -> [1,0,0,0,2] -> [1,0,0,0,1] -> [1,0,0,0,1] -> [1,0,0,0,1] -> [1,0,0,0,1] -> [0,0,0,0,1] -> [0,0,0,0,1] -> [0,0,0,0,1] -> [0,0,0,0,1] -> [0,0,0,0,0]`.
+> - Choose `curr = 3`, and a movement direction to the right.
+> 	- `[1,0,2,0,3] -> [1,0,2,0,3] -> [1,0,2,0,2] -> [1,0,2,0,2] -> [1,0,1,0,2] -> [1,0,1,0,2] -> [1,0,1,0,1] -> [1,0,1,0,1] -> [1,0,0,0,1] -> [1,0,0,0,1] -> [1,0,0,0,0] -> [1,0,0,0,0] -> [1,0,0,0,0] -> [1,0,0,0,0] -> [0,0,0,0,0]`.
 
-<p><strong>Output:</strong> <span class="example-io">2</span></p>
+#### Example 2
 
-<p><strong>Explanation:</strong></p>
+> **Input**: nums = [2,3,4,0,4,1,0]
+> 
+> **Output**: 0
+> 
+> **Explanation**:
+> 
+> There are no possible valid selections.
 
-<p>The only possible valid selections are the following:</p>
-
-<ul>
-	<li>Choose <code>curr = 3</code>, and a movement direction to the left.
-
-	<ul>
-		<li><code>[1,0,2,<strong><u>0</u></strong>,3] -&gt; [1,0,<strong><u>2</u></strong>,0,3] -&gt; [1,0,1,<strong><u>0</u></strong>,3] -&gt; [1,0,1,0,<strong><u>3</u></strong>] -&gt; [1,0,1,<strong><u>0</u></strong>,2] -&gt; [1,0,<strong><u>1</u></strong>,0,2] -&gt; [1,0,0,<strong><u>0</u></strong>,2] -&gt; [1,0,0,0,<strong><u>2</u></strong>] -&gt; [1,0,0,<strong><u>0</u></strong>,1] -&gt; [1,0,<strong><u>0</u></strong>,0,1] -&gt; [1,<strong><u>0</u></strong>,0,0,1] -&gt; [<strong><u>1</u></strong>,0,0,0,1] -&gt; [0,<strong><u>0</u></strong>,0,0,1] -&gt; [0,0,<strong><u>0</u></strong>,0,1] -&gt; [0,0,0,<strong><u>0</u></strong>,1] -&gt; [0,0,0,0,<strong><u>1</u></strong>] -&gt; [0,0,0,0,0]</code>.</li>
-	</ul>
-	</li>
-	<li>Choose <code>curr = 3</code>, and a movement direction to the right.
-	<ul>
-		<li><code>[1,0,2,<strong><u>0</u></strong>,3] -&gt; [1,0,2,0,<strong><u>3</u></strong>] -&gt; [1,0,2,<strong><u>0</u></strong>,2] -&gt; [1,0,<strong><u>2</u></strong>,0,2] -&gt; [1,0,1,<strong><u>0</u></strong>,2] -&gt; [1,0,1,0,<strong><u>2</u></strong>] -&gt; [1,0,1,<strong><u>0</u></strong>,1] -&gt; [1,0,<strong><u>1</u></strong>,0,1] -&gt; [1,0,0,<strong><u>0</u></strong>,1] -&gt; [1,0,0,0,<strong><u>1</u></strong>] -&gt; [1,0,0,<strong><u>0</u></strong>,0] -&gt; [1,0,<strong><u>0</u></strong>,0,0] -&gt; [1,<strong><u>0</u></strong>,0,0,0] -&gt; [<strong><u>1</u></strong>,0,0,0,0] -&gt; [0,0,0,0,0].</code></li>
-	</ul>
-	</li>
-</ul>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [2,3,4,0,4,1,0]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">0</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>There are no possible valid selections.</p>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+#### Constraints
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 100</code></li>
