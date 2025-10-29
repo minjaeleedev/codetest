@@ -6,7 +6,8 @@ title: "Smallest Number With All Set Bits"
 url: "https://leetcode.com/problems/smallest-number-with-all-set-bits"
 difficulty: Easy
 topics:
-  -
+  - Math
+  - Bit Manipulation
 
 # Solution Tracking
 status: Solved
@@ -15,10 +16,10 @@ date-solved:
 attempts:
 
 # Personal Notes
-rating:
+rating: 1
 needs-review: false
 tags: []
-notes: ""
+notes: "all set bits = 2^n -1"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
@@ -27,7 +28,11 @@ review-count: 0
 last-reviewed: null
 ---
 
-<h2><a href="https://leetcode.com/problems/smallest-number-with-all-set-bits">3370. Smallest Number With All Set Bits</a></h2><h3>Easy</h3><hr><p>You are given a <em>positive</em> number <code>n</code>.</p>
+## [3370. Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits)
+
+Easy
+
+You are given a **positive** number `n`.
 
 <p>Return the <strong>smallest</strong> number <code>x</code> <strong>greater than</strong> or <strong>equal to</strong> <code>n</code>, such that the binary representation of <code>x</code> contains only <strong>set</strong> bits.</p>
 
@@ -76,8 +81,3 @@ last-reviewed: null
 <ul>
 	<li><code>1 &lt;= n &lt;= 1000</code></li>
 </ul>
-
-#### Topics
-
-- Math
-- Bit Manipulation
