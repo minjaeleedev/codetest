@@ -3,26 +3,29 @@
 platform: LeetCode
 platform-problem-id: "3289"
 title: "The Two Sneaky Numbers of Digitville"
-url: "https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/"
+url: "https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville"
 difficulty: None
 topics:
-  -
+  - Array
+  - Hash Table
+  - Math
+  - Bit Manipulation
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2024-09-19
+date-solved: 2024-09-19
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 4
 needs-review: false
 tags: []
-notes: ""
+notes: "xor, lowest differing bit"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
-next-review: null
+next-review: 2025-11-10
 review-count: 0
 last-reviewed: null
 ---
@@ -68,9 +71,3 @@ As the town detective, your task is to find these two sneaky numbers. Return an 
 - nums.length == n + 2
 - 0 <= nums[i] < n
 - The input is generated such that nums contains exactly two repeated elements.
-
-### Topics
-
-- Array
-- Hash Table
-- Math
