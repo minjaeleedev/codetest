@@ -6,36 +6,41 @@ title: "Find X-Sum of All K-Long Subarrays I"
 url: "https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Hash Table
+  - Sliding Window
+  - Heap (Priority Queue)
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2024-10-20
+date-solved: 2025-11-04
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 3
 needs-review: false
 tags: []
-notes: ""
+notes: "sliding window"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
-next-review: null
+next-review: 2025-11-29
 review-count: 0
 last-reviewed: null
 ---
 
-<h2><a href="https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i">3318. Find X-Sum of All K-Long Subarrays I</a></h2><h3>Easy</h3><hr><p>You are given an array <code>nums</code> of <code>n</code> integers and two integers <code>k</code> and <code>x</code>.</p>
+## [3318. Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i)
 
-<p>The <strong>x-sum</strong> of an array is calculated by the following procedure:</p>
+Easy
 
-<ul>
-	<li>Count the occurrences of all elements in the array.</li>
-	<li>Keep only the occurrences of the top <code>x</code> most frequent elements. If two elements have the same number of occurrences, the element with the <strong>bigger</strong> value is considered more frequent.</li>
-	<li>Calculate the sum of the resulting array.</li>
-</ul>
+You are given an array `nums` of `n` integers and two integers `k` and `x`.
+
+The **x-sum** of an array is calculated by the following procedure:
+
+- Count the occurrences of all elements in the array.
+- Keep only the occurrences of the top `x` most frequent elements. If two elements have the same number of occurrences, the element with the **bigger** value is considered more frequent.
+- Calculate the sum of the resulting array.
 
 <p><strong>Note</strong> that if an array has less than <code>x</code> distinct elements, its <strong>x-sum</strong> is the sum of the array.</p>
 
@@ -70,8 +75,7 @@ last-reviewed: null
 <p>Since <code>k == x</code>, <code>answer[i]</code> is equal to the sum of the subarray <code>nums[i..i + k - 1]</code>.</p>
 </div>
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+### Constraints
 
 <ul>
 	<li><code>1 &lt;= n == nums.length &lt;= 50</code></li>
