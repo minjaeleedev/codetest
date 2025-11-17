@@ -1,24 +1,23 @@
 ---
-# Problem Identification
 platform: LeetCode
 platform-problem-id: "1437"
 title: "Check If All 1's Are at Least Length K Places Away"
 url: "https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/"
 difficulty: Easy
 topics:
-  -
+  - Array
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2025-11-17
+date-solved: 2025-11-17
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
-notes: ""
+notes: "array"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
@@ -27,7 +26,10 @@ review-count: 0
 last-reviewed: null
 ---
 
-<h2><a href="https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/">1437. Check If All 1's Are at Least Length K Places Away</a></h2><h3>Easy</h3><hr><div><p>Given an binary array <code>nums</code> and an integer <code>k</code>, return <code>true</code><em> if all </em><code>1</code><em>'s are at least </em><code>k</code><em> places away from each other, otherwise return </em><code>false</code>.</p>
+## [1437. Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away)
+
+Easy
+Given an binary array `nums` and an integer `k`, return `true` if all `1`'s are at least `k` places away from each other, otherwise return `false`.
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
@@ -44,12 +46,9 @@ last-reviewed: null
 <strong>Explanation:</strong> The second 1 and third 1 are only one apart from each other.
 </pre>
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
 
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>0 &lt;= k &lt;= nums.length</code></li>
-	<li><code>nums[i]</code> is <code>0</code> or <code>1</code></li>
-</ul>
-</div>
+#### Constraints
+
+- 1 <= nums.length <= 10<sup>5</sup>
+- `0 <= k <= nums.length`
+- `nums[i]` is `0` or `1`
