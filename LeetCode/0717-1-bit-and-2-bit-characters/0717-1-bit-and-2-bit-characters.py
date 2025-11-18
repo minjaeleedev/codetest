@@ -1,15 +1,17 @@
+from typing import List
+
+
 class Solution:
     def isOneBitCharacter(self, bits: List[int]) -> bool:
-        cur = ''
+        cur = ""
         result = True
         for b in bits:
             cur += str(b)
-            if cur == '0':
+            if cur == "0":
                 result = True
-                cur = ''
-            elif cur == '10' or cur == '11':
+                cur = ""
+            elif cur == "10" or cur == "11":
                 result = False
-                cur = ''
+                cur = ""
 
         return result
-            

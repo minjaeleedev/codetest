@@ -6,16 +6,16 @@ title: "1-bit and 2-bit Characters"
 url: "https://leetcode.com/problems/1-bit-and-2-bit-characters"
 difficulty: Easy
 topics:
-  -
+  - Array
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2025-04-22
+date-solved: 2025-04-22
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
 notes: ""
