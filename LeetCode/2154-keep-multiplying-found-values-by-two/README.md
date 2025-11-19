@@ -6,16 +6,19 @@ title: "Keep Multiplying Found Values by Two"
 url: "https://leetcode.com/problems/keep-multiplying-found-values-by-two/"
 difficulty: None
 topics:
-  -
+  - Array
+  - Hash Table
+  - Sorting
+  - Simulation
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2025-11-19
+date-solved: 2025-11-19
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
 notes: ""
