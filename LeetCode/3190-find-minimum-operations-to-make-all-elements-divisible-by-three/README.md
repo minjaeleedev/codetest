@@ -6,16 +6,17 @@ title: "Find Minimum Operations to Make All Elements Divisible by Three"
 url: "https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/"
 difficulty: None
 topics:
-  -
+  - Array
+  - Math
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2025-11-22
+date-solved: 2025-11-22
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 1
 needs-review: false
 tags: []
 notes: ""
