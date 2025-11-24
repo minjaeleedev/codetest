@@ -6,16 +6,17 @@ title: "Binary Prefix Divisible By 5"
 url: "https://leetcode.com/problems/binary-prefix-divisible-by-5"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Bit Manipulation
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2025-11-24
+date-solved: 2025-11-24
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
 notes: ""
