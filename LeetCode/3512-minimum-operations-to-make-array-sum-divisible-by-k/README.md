@@ -3,19 +3,20 @@
 platform: LeetCode
 platform-problem-id: "3512"
 title: "Minimum Operations to Make Array Sum Divisible by K"
-url: "https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/"
+url: "https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Math
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2025-11-29
+date-solved: 2025-11-29
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 1
 needs-review: false
 tags: []
 notes: ""
