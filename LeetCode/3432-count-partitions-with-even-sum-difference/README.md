@@ -6,16 +6,18 @@ title: "Count Partitions with Even Sum Difference"
 url: "https://leetcode.com/problems/count-partitions-with-even-sum-difference"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Math
+  - Prefix Sum
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2025-12-05
+date-solved: 2025-12-05
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
 notes: ""
