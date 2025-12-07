@@ -6,19 +6,19 @@ title: "Count Odd Numbers in an Interval Range"
 url: "https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/"
 difficulty: Easy
 topics:
-  -
+  - Math
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2025-12-07
+date-solved: 2025-12-07
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 1
 needs-review: false
 tags: []
-notes: ""
+notes: "simple"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
@@ -27,7 +27,12 @@ review-count: 0
 last-reviewed: null
 ---
 
-<h2><a href="https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/">1523. Count Odd Numbers in an Interval Range</a></h2><h3>Easy</h3><hr><div><p>Given two non-negative integers <code>low</code> and <code><font face="monospace">high</font></code>. Return the <em>count of odd numbers between </em><code>low</code><em> and </em><code><font face="monospace">high</font></code><em>&nbsp;(inclusive)</em>.</p>
+## [1523. Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range)
+
+Easy 
+
+Given two non-negative integers `low` and `high`. 
+Return the *count of odd numbers between `low` and `high`(inclusive).*
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
