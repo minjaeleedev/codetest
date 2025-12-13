@@ -6,19 +6,22 @@ title: "Coupon Code Validator"
 url: "https://leetcode.com/problems/coupon-code-validator"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Hash Table
+  - String
+  - Sorting
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2025-12-13
+date-solved: 2025-12-13
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 3
 needs-review: false
 tags: []
-notes: ""
+notes: "regex, sort"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
