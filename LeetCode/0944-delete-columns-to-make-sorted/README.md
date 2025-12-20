@@ -3,19 +3,20 @@
 platform: LeetCode
 platform-problem-id: "944"
 title: "Delete Columns to Make Sorted"
-url: "https://leetcode.com/problems/delete-columns-to-make-sorted/"
-difficulty: None
+url: "https://leetcode.com/problems/delete-columns-to-make-sorted"
+difficulty: Easy
 topics:
-  -
+  - Array
+  - String
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2025-12-20
+date-solved: 2025-12-20
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
 notes: ""
