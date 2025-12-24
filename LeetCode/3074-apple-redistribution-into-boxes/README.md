@@ -6,16 +6,18 @@ title: "Apple Redistribution into Boxes"
 url: "https://leetcode.com/problems/apple-redistribution-into-boxes/"
 difficulty: None
 topics:
-  -
+  - Array
+  - Greedy
+  - Sorting
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2025-12-24
+date-solved: 2025-12-24
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
 notes: ""
@@ -27,7 +29,7 @@ review-count: 0
 last-reviewed: null
 ---
 
-## 3074. Apple Redistribution into Boxes
+## [3074. Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes)
 
 You are given an array apple of size n and an array capacity of size m.
 
