@@ -22,9 +22,9 @@ notes: ""
 similar-problems: null
 
 # Review Schedule (for spaced repetition)
-next-review: 2025-12-20  # Auto-managed by review script
+next-review: 2026-01-17  # Auto-managed by review script
 review-count: 0
-last-reviewed: 2025-12-20
+last-reviewed: 2026-01-17
 ---
 
 ## [3573. Best Time to Buy and Sell Stock V](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-v)
