@@ -3,22 +3,24 @@
 platform: LeetCode
 platform-problem-id: "1351"
 title: "Count Negative Numbers in a Sorted Matrix"
-url: "https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/"
+url: "https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Binary Search
+  - Matrix
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2025-12-28
+date-solved: 2025-12-28
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 3
 needs-review: false
 tags: []
-notes: ""
+notes: "binary search, or exploit non-increasing property"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
@@ -27,17 +29,21 @@ review-count: 0
 last-reviewed: null
 ---
 
-<h2><a href="https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/">1351. Count Negative Numbers in a Sorted Matrix</a></h2><h3>Easy</h3><hr><div><p>Given a <code>m x n</code> matrix <code>grid</code> which is sorted in non-increasing order both row-wise and column-wise, return <em>the number of <strong>negative</strong> numbers in</em> <code>grid</code>.</p>
+## [1351. Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix)
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+Easy
+
+<p>Given a <code>m x n</code> matrix <code>grid</code> which is sorted in non-increasing order both row-wise and column-wise, return <em>the number of <strong>negative</strong> numbers in</em> <code>grid</code>.
+</p>
+
+#### Example 1
 
 <pre><strong>Input:</strong> grid = [[4,3,2,-1],[3,2,1,-1],[1,1,-1,-2],[-1,-1,-2,-3]]
 <strong>Output:</strong> 8
 <strong>Explanation:</strong> There are 8 negatives number in the matrix.
 </pre>
 
-<p><strong class="example">Example 2:</strong></p>
+#### Example 2
 
 <pre><strong>Input:</strong> grid = [[3,2],[1,0]]
 <strong>Output:</strong> 0
@@ -53,5 +59,5 @@ last-reviewed: null
 	<li><code>-100 &lt;= grid[i][j] &lt;= 100</code></li>
 </ul>
 
-<p>&nbsp;</p>
-<strong>Follow up:</strong> Could you find an <code>O(n + m)</code> solution?</div>
+#### Follow up 
+Could you find an `O(n + m)` solution?
