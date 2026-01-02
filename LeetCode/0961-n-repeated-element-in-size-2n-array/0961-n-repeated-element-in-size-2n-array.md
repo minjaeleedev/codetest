@@ -6,19 +6,20 @@ title: "N-Repeated Element in Size 2N Array"
 url: "https://leetcode.com/problems/n-repeated-element-in-size-2n-array/"
 difficulty: None
 topics:
-  -
+  - Array
+  - Hash Table
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2024-09-09
+date-solved: 2024-09-09
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 3
 needs-review: false
 tags: []
-notes: ""
+notes: "pigeonhole principle"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
