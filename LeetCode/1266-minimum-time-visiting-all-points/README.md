@@ -6,16 +6,18 @@ title: "Minimum Time Visiting All Points"
 url: "https://leetcode.com/problems/minimum-time-visiting-all-points/"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Math
+  - Geometry
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-01-12
+date-solved: 2026-01-12
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
 notes: ""
