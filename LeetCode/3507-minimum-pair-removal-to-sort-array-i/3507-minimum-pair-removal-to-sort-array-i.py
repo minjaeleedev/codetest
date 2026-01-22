@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def minimumPairRemoval(self, nums: List[int]) -> int:
         # [5,2,3,1] - [7,5,4]
@@ -17,24 +20,24 @@ class Solution:
         # 3 3 2
         # 3 5
         result = 0
+
         def is_sorted(arr):
-            for i in range(len(arr)-1):
-                if arr[i] > arr[i+1]:
+            for i in range(len(arr) - 1):
+                if arr[i] > arr[i + 1]:
                     return False
-                
+
             return True
-        
+
         while not is_sorted(nums):
             mn = nums[0] + nums[1] if len(nums) >= 2 else nums[0]
             idx = 0
-            for i in range(len(nums)-1):
-                cur, nx = nums[i], nums[i+1]
+            for i in range(len(nums) - 1):
+                cur, nx = nums[i], nums[i + 1]
                 if mn > cur + nx:
-                    mn = min(mn, cur+nx)
+                    mn = min(mn, cur + nx)
                     idx = i
-            
+
             result += 1
-            nums = nums[:idx] + [mn] + nums[idx+2:]
-        
+            nums = nums[:idx] + [mn] + nums[idx + 2 :]
+
         return result
-            

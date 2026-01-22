@@ -6,19 +6,25 @@ title: "Minimum Pair Removal to Sort Array I"
 url: "https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Hash Table
+  - Linked List
+  - Heap (Priority Queue)
+  - Simulation
+  - Doubly-Linked List
+  - Ordered Set
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-01-22
+date-solved: 2026-01-22
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 5
 needs-review: false
 tags: []
-notes: ""
+notes: "optimization"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
