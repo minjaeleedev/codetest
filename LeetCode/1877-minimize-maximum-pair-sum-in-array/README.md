@@ -6,16 +6,19 @@ title: "Minimize Maximum Pair Sum in Array"
 url: "https://leetcode.com/problems/minimize-maximum-pair-sum-in-array"
 difficulty: Medium
 topics:
-  -
+  - Array
+  - Two Pointers
+  - Greedy
+  - Sorting
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-01-24
+date-solved: 2026-01-24
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 3
 needs-review: false
 tags: []
 notes: ""
