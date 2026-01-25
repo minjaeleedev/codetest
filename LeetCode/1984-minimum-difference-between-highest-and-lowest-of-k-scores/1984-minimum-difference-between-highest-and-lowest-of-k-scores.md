@@ -6,16 +6,18 @@ title: "Minimum Difference Between Highest and Lowest of K Scores"
 url: "https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/"
 difficulty: None
 topics:
-  -
+  - Array
+  - Sliding Window
+  - Sorting
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-01-25
+date-solved: 2026-01-25
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
 notes: ""
