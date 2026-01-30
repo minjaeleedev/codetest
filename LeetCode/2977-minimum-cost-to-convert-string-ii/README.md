@@ -1,3 +1,38 @@
+---
+platform: LeetCode  # LeetCode | Baekjoon | Kattis | Codeforces | AtCoder | HackerRank | etc.
+platform-problem-id: "2977"
+title: "Minimum Cost to Convert String II"
+url: "https://leetcode.com/problems/minimum-cost-to-convert-string-ii"
+difficulty: Hard   # LeetCode: Easy | Medium | Hard | Baekjoon: Bronze | Silver | Gold | Platinum | Diamond
+topics:
+  - Array
+  - String
+  - Dynamic Programming (DP)
+  - Graph Theory
+  - Trie
+  - Shortest Path
+
+# Solution Tracking
+status: Attempted  # Not Started | Attempted | Solved | Reviewed
+date-attempted: 2026-01-30
+date-solved:
+attempts: 1
+
+# Personal Notes
+rating: 7  # 1-10 difficulty rating (personal)
+needs-review: true  # Set to true for problems that need review
+tags: []  # Personal tags: interview-prep, tricky, favorite, etc.
+notes: ""
+similar-problems:
+  - platform:
+    id:
+
+# Review Schedule (for spaced repetition)
+next-review: 2026-03-01  # Auto-managed by review script
+review-count: 0
+last-reviewed: null
+---
+
 ## [2977. Minimum Cost to Convert String II](https://leetcode.com/problems/minimum-cost-to-convert-string-ii)
 
 Hard
