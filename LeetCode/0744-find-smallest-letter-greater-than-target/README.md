@@ -6,7 +6,8 @@ title: "Find Smallest Letter Greater Than Target"
 url: "https://leetcode.com/problems/find-smallest-letter-greater-than-target"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Binary Search
 
 # Solution Tracking
 status: Solved
