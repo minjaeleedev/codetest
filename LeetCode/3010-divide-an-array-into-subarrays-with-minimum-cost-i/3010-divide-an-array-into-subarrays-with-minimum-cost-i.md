@@ -6,19 +6,21 @@ title: "Divide an Array Into Subarrays With Minimum Cost I"
 url: "https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/"
 difficulty: None
 topics:
-  -
+  - Array
+  - Sorting
+  - Enumeration
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-02-01
+date-solved: 2026-02-01
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 3
 needs-review: false
 tags: []
-notes: ""
+notes: "sorting idea"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
