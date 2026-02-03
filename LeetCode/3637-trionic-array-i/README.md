@@ -6,7 +6,8 @@ title: "Trionic Array I"
 url: "https://leetcode.com/problems/trionic-array-i"
 difficulty: Easy
 topics:
-  -
+  - Mid Level
+  - Array
 
 # Solution Tracking
 status: Solved
@@ -15,7 +16,7 @@ date-solved:
 attempts:
 
 # Personal Notes
-rating:
+rating: 3
 needs-review: false
 tags: []
 notes: ""
