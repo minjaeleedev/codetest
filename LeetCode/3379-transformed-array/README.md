@@ -6,7 +6,8 @@ title: "Transformed Array"
 url: "https://leetcode.com/problems/transformed-array"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Simulation
 
 # Solution Tracking
 status: Solved

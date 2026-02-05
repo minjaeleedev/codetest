@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def constructTransformedArray(self, nums: List[int]) -> List[int]:
         result = []
@@ -5,7 +8,6 @@ class Solution:
             if n == 0:
                 result.append(n)
             else:
-                result.append(nums[(i+n)%len(nums)])
+                result.append(nums[(i + n) % len(nums)])
 
         return result
-    
