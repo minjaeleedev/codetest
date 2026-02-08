@@ -6,23 +6,25 @@ title: "Balanced Binary Tree"
 url: "https://leetcode.com/problems/balanced-binary-tree"
 difficulty: Easy
 topics:
-  -
+  - Treee
+  - Depth-First Search
+  - Binary Tree
 
 # Solution Tracking
 status: Solved
-date-attempted:
+date-attempted: 2026-02-08
 date-solved:
 attempts:
 
 # Personal Notes
-rating:
+rating: 3
 needs-review: false
 tags: []
 notes: ""
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
-next-review: null
+next-review: 2026-03-08
 review-count: 0
 last-reviewed: null
 ---
