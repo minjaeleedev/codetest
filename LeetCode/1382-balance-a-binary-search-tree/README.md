@@ -6,7 +6,12 @@ title: "Balance a Binary Search Tree"
 url: "https://leetcode.com/problems/balance-a-binary-search-tree/"
 difficulty: Medium
 topics:
-  -
+  - Divide and Conquer
+  - Greedy
+  - Tree
+  - Depth-First Search (DFS)
+  - Binary Search Tree
+  - Binary Tree
 
 # Solution Tracking
 status: Solved
@@ -22,7 +27,7 @@ notes: ""
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
-next-review: null
+next-review: 2026-03-09
 review-count: 0
 last-reviewed: null
 ---
