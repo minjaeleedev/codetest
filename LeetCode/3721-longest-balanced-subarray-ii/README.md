@@ -1,17 +1,21 @@
 ---
 platform: LeetCode  # LeetCode | Baekjoon | Kattis | Codeforces | AtCoder | HackerRank | etc.
-platform-problem-id: "3719"
+platform-problem-id: "3721"
 title: ""
 url: ""
 difficulty:   # LeetCode: Easy | Medium | Hard | Baekjoon: Bronze | Silver | Gold | Platinum | Diamond
 topics:
-  -
+  - Array
+  - Hash Table
+  - Divide and Conquer
+  - Segment Tree
+  - Prefix Sum
 
 # Solution Tracking
 status: Attempted  # Not Started | Attempted | Solved | Reviewed
-date-attempted:
+date-attempted: 2026-02-11
 date-solved:
-attempts:
+attempts: 1
 
 # Personal Notes
 rating: 5  # 1-10 difficulty rating (personal)
@@ -23,14 +27,13 @@ similar-problems:
     id:
 
 # Review Schedule (for spaced repetition)
-next-review: null  # Auto-managed by review script
+next-review: 2026-03-11  # Auto-managed by review script
 review-count: 0
 last-reviewed: null
 ---
+## [3721. Longest Balanced Subarray II](https://leetcode.com/problems/longest-balanced-subarray-ii)
 
-## [3719. Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i)
-
-Medium
+Hard
 
 You are given an integer array nums.
 
@@ -74,5 +77,5 @@ Return the length of the longest balanced subarray.
 
 #### Constraints:
 
-- 1 <= nums.length <= 1500
+- 1 <= nums.length <= 10<sup>5</sup>
 - 1 <= nums[i] <= 10<sup>5</sup>
