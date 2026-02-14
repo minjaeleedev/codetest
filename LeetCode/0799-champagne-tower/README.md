@@ -1,3 +1,33 @@
+---
+platform: LeetCode  # LeetCode | Baekjoon | Kattis | Codeforces | AtCoder | HackerRank | etc.
+platform-problem-id: "799"
+title: "Champagne Tower"
+url: "https://leetcode.com/problems/champagne-tower"
+difficulty: Medium   # LeetCode: Easy | Medium | Hard | Baekjoon: Bronze | Silver | Gold | Platinum | Diamond
+topics:
+  - Dynamic Programming (DP)
+
+# Solution Tracking
+status: Solved  # Not Started | Attempted | Solved | Reviewed
+date-attempted: 2026-02-14
+date-solved:
+attempts: 2
+
+# Personal Notes
+rating: 5  # 1-10 difficulty rating (personal)
+needs-review: false  # Set to true for problems that need review
+tags: []  # Personal tags: interview-prep, tricky, favorite, etc.
+notes: ""
+similar-problems:
+  - platform:
+    id:
+
+# Review Schedule (for spaced repetition)
+next-review: 2026-03-14  # Auto-managed by review script
+review-count: 0
+last-reviewed: null
+---
+
 ## [799. Champagne Tower](https://leetcode.com/problems/champagne-tower)
 
 Medium
