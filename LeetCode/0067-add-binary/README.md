@@ -6,16 +6,19 @@ title: "Add Binary"
 url: "https://leetcode.com/problems/add-binary/"
 difficulty: Easy
 topics:
-  -
+  - Math
+  - String
+  - Bit Manipulation
+  - Simulation
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-02-15
+date-solved: 2026-02-15
+attempts: 2
 
 # Personal Notes
-rating:
+rating: 3
 needs-review: false
 tags: []
 notes: ""
