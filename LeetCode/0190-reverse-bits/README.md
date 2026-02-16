@@ -6,20 +6,23 @@ title: "Reverse Bits"
 url: "https://leetcode.com/problems/reverse-bits/"
 difficulty: Easy
 topics:
-  -
+  - Divide and Conquer
+  - Bit Manipulation
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
+date-attempted: 2026-02-16
+date-solved: 2026-02-16
 attempts:
 
 # Personal Notes
-rating:
-needs-review: false
+rating: 5
+needs-review: true
 tags: []
 notes: ""
-similar-problems: []
+similar-problems:
+  - platform: LeetCode
+  - id: "7"
 
 # Review Schedule (for spaced repetition)
 next-review: null
