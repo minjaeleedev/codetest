@@ -6,16 +6,17 @@ title: "Binary Watch"
 url: "https://leetcode.com/problems/binary-watch/"
 difficulty: Easy
 topics:
-  -
+  - Backtracking
+  - Bit Manipulation
 
 # Solution Tracking
 status: Solved
-date-attempted:
+date-attempted: 2026-02-17
 date-solved:
 attempts:
 
 # Personal Notes
-rating:
+rating: 3
 needs-review: false
 tags: []
 notes: ""
