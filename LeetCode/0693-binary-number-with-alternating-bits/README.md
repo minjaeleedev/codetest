@@ -6,16 +6,16 @@ title: "Binary Number with Alternating Bits"
 url: "https://leetcode.com/problems/binary-number-with-alternating-bits"
 difficulty: Easy
 topics:
-  -
+  - Bit Manipulation
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
+date-attempted: 2026-02-18
+date-solved: 2026-02-18
 attempts:
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
 notes: ""
