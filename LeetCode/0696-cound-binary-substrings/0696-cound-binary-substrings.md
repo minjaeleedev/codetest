@@ -6,16 +6,17 @@ title: "Count Binary Substrings"
 url: "https://leetcode.com/problems/count-binary-substrings/"
 difficulty: None
 topics:
-  -
+  - Two Pointers
+  - String
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
+date-attempted: 2026-02-19
+date-solved: 2026-02-19
 attempts:
 
 # Personal Notes
-rating:
+rating: 3
 needs-review: false
 tags: []
 notes: ""
