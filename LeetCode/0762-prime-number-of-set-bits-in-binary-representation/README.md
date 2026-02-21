@@ -6,16 +6,17 @@ title: "Prime Number of Set Bits in Binary Representation"
 url: "https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation"
 difficulty: Easy
 topics:
-  -
+  - Math
+  - Bit Manipulation
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-02-21
+date-solved: 2026-02-21
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
 notes: ""
