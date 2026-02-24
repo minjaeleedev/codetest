@@ -6,16 +6,18 @@ title: "Sum of Root To Leaf Binary Numbers"
 url: "https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers"
 difficulty: Easy
 topics:
-  -
+  - Tree
+  - Depth-First Search
+  - Binary Tree
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-02-24
+date-solved: 2026-02-24
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 3
 needs-review: false
 tags: []
 notes: ""
