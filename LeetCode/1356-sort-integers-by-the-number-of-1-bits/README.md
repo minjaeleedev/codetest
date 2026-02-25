@@ -6,16 +6,19 @@ title: "Sort Integers by The Number of 1 Bits"
 url: "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Bit Manipulation
+  - Sorting
+  - Counting
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
+date-attempted: 2026-02-25
+date-solved: 2026-02-25
 attempts:
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
 notes: ""
