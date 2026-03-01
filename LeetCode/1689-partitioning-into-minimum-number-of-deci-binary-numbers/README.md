@@ -6,16 +6,17 @@ title: "Partitioning Into Minimum Number Of Deci-Binary Numbers"
 url: "https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers"
 difficulty: Medium
 topics:
-  -
+  - String
+  - Greedy
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-03-01
+date-solved: 2026-03-01
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 3
 needs-review: false
 tags: []
 notes: ""
