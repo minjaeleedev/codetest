@@ -6,16 +6,17 @@ title: "Special Positions in a Binary Matrix"
 url: "https://leetcode.com/problems/special-positions-in-a-binary-matrix/"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Matrix
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-03-04
+date-solved: 2026-03-04
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
 notes: ""
