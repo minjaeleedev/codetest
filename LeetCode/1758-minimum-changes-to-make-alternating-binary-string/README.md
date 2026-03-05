@@ -6,16 +6,16 @@ title: "Minimum Changes To Make Alternating Binary String"
 url: "https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/"
 difficulty: None
 topics:
-  -
+  - String
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-03-05
+date-solved: 2026-03-05
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
 notes: ""
