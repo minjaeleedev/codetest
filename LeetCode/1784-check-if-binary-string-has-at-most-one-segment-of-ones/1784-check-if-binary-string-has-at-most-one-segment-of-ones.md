@@ -6,16 +6,16 @@ title: "Check if Binary String Has at Most One Segment of Ones"
 url: "https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/"
 difficulty: None
 topics:
-  -
+  - String
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
+date-attempted: 2026-03-06  
+date-solved: 2026-03-06
 attempts:
 
 # Personal Notes
-rating:
+rating: 1
 needs-review: false
 tags: []
 notes: ""
