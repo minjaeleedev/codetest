@@ -19,7 +19,7 @@ attempts: 1
 rating: 6  # 1-10 difficulty rating (personal)
 needs-review: true  # Set to true for problems that need review
 tags: []  # Personal tags: interview-prep, tricky, favorite, etc.
-notes: ""
+notes: "rotation optimization by concatenating"
 similar-problems:
   - platform:
     id:
