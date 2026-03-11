@@ -6,19 +6,19 @@ title: "Complement of Base 10 Integer"
 url: "https://leetcode.com/problems/complement-of-base-10-integer"
 difficulty: Easy
 topics:
-  -
+  - Bit Manipulation
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-03-11
+date-solved: 2026-03-11
+attempts: 2
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
-notes: ""
+notes: "highest one bit algorithm"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
