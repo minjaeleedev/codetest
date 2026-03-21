@@ -6,19 +6,21 @@ title: "Flip Square Submatrix Vertically"
 url: "https://leetcode.com/problems/flip-square-submatrix-vertically"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Two Pointers
+  - Matrix
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-03-21
+date-solved: 2026-03-21
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 3
 needs-review: false
 tags: []
-notes: ""
+notes: "simple symmetry"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
