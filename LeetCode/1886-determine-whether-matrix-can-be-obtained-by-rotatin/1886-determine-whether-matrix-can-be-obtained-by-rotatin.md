@@ -6,16 +6,17 @@ title: "Determine Whether Matrix Can Be Obtained By Rotation"
 url: "https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/"
 difficulty: None
 topics:
-  -
+  - Array
+  - Matrix
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-03-22
+date-solved: 2026-03-22
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
 notes: ""
