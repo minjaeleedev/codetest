@@ -6,16 +6,16 @@ title: "Check if Strings Can be Made Equal With Operations I"
 url: "https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/"
 difficulty: None
 topics:
-  -
+  - String
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-03-29
+date-solved: 2026-03-29
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
 notes: ""
@@ -53,7 +53,3 @@ Return true if you can make the strings s1 and s2 equal, and false otherwise.
 
 - s1.length == s2.length == 4
 - s1 and s2 consist only of lowercase English letters.
-
-### Topics
-
-- String
