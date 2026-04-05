@@ -6,16 +6,17 @@ title: "Robot Return to Origin"
 url: "https://leetcode.com/problems/robot-return-to-origin/"
 difficulty: Easy
 topics:
-  -
+  - String
+  - Simulation
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-04-05
+date-solved: 2026-04-05
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 1
 needs-review: false
 tags: []
 notes: ""
