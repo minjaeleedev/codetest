@@ -6,16 +6,16 @@ title: "Minimum Distance to the Target Element"
 url: "https://leetcode.com/problems/minimum-distance-to-the-target-element/"
 difficulty: None
 topics:
-  -
+  - Array
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-04-13
+date-solved: 2026-04-13
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
 notes: ""
@@ -27,7 +27,7 @@ review-count: 0
 last-reviewed: null
 ---
 
-## 1848. Minimum Distance to the Target Element
+## [1848. Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element)
 
 Given an integer array nums (0-indexed) and two integers target and start, find an index i such that nums[i] == target and abs(i - start) is minimized. Note that abs(x) is the absolute value of x.
 

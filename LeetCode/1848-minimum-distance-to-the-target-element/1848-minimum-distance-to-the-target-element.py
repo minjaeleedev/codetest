@@ -3,14 +3,13 @@ class Solution:
         result = None
         for i, num in enumerate(nums):
             if num == target:
-                dist = abs(i-start)
-                if result == None:
+                dist = abs(i - start)
+                if result is None:
                     result = dist
                 else:
                     result = min(dist, result)
 
-        if result == None:
+        if result is None:
             return -1
 
         return result
-                
