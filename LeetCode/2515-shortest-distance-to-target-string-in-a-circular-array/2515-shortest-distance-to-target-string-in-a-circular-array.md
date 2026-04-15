@@ -6,7 +6,8 @@ title: "Shortest Distance to Target String in a Circular Array"
 url: "https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/"
 difficulty: None
 topics:
-  -
+  - Array
+  - String
 
 # Solution Tracking
 status: Solved
