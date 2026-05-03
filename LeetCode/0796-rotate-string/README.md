@@ -6,19 +6,20 @@ title: "Rotate String"
 url: "https://leetcode.com/problems/rotate-string"
 difficulty: Easy
 topics:
-  -
+  - String
+  - String Matching
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-05-03
+date-solved: 2026-05-03
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 
 needs-review: false
 tags: []
-notes: ""
+notes: "kmp"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
