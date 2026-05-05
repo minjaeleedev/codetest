@@ -18,7 +18,7 @@ attempts:
 rating:
 needs-review: false
 tags: []
-notes: ""
+notes: "close the list into the ring"
 similar-problems: []
 
 # Review Schedule (for spaced repetition)
