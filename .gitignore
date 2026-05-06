@@ -3,3 +3,5 @@
 
 # Scripts
 scripts/
+
+__pycache__
