@@ -6,7 +6,8 @@ title: "Separate The Digits In An Array"
 url: "https://leetcode.com/problems/separate-the-digits-in-an-array/"
 difficulty: None
 topics:
-  -
+  - Array
+  - Simulation
 
 # Solution Tracking
 status: Solved
