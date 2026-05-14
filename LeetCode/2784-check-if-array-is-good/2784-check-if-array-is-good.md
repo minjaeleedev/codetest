@@ -6,7 +6,9 @@ title: "Check if Array is Good"
 url: "https://leetcode.com/problems/check-if-array-is-good/"
 difficulty: None
 topics:
-  -
+  - Array
+  - Hash Table
+  - Sorting
 
 # Solution Tracking
 status: Solved
