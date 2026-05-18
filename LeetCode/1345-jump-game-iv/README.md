@@ -1,3 +1,35 @@
+---
+platform: LeetCode  # LeetCode | Baekjoon | Kattis | Codeforces | AtCoder | HackerRank | etc.
+platform-problem-id: "1345"
+title: "Jump Game IV"
+url: "https://leetcode.com/problems/jump-game-iv"
+difficulty: Hard   # LeetCode: Easy | Medium | Hard | Baekjoon: Bronze | Silver | Gold | Platinum | Diamond
+topics:
+  - Array
+  - Hash Table
+  - BFS
+
+# Solution Tracking
+status: Attempted  # Not Started | Attempted | Solved | Reviewed
+date-attempted: 2026-05-18
+date-solved: 2026-05-18
+attempts: 1
+
+# Personal Notes
+rating: 5  # 1-10 difficulty rating (personal)
+needs-review: true  # Set to true for problems that need review
+tags: []  # Personal tags: interview-prep, tricky, favorite, etc.
+notes: "dedup"
+similar-problems:
+  - platform:
+    id:
+
+# Review Schedule (for spaced repetition)
+next-review: null  # Auto-managed by review script
+review-count: 0
+last-reviewed: null
+---
+
 ## [1345. Jump Game IV](https://leetcode.com/problems/jump-game-iv)
 
 Hard
