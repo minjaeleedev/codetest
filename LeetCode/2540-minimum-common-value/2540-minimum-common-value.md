@@ -6,16 +6,19 @@ title: "Minimum Common Value"
 url: "https://leetcode.com/problems/minimum-common-value/"
 difficulty: None
 topics:
-  -
+  - Array
+  - Hash Table
+  - Two Pointers
+  - Binary Search
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-05-19
+date-solved: 2026-05-19
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
 notes: ""
@@ -27,7 +30,7 @@ review-count: 0
 last-reviewed: null
 ---
 
-## 2540. Minimum Common Value
+## [2540. Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/?envType=daily-question&envId=2026-05-19)
 Given two integer arrays nums1 and nums2, sorted in non-decreasing order, return the minimum integer common to both arrays. If there is no common integer amongst nums1 and nums2, return -1.
 
 Note that an integer is said to be common to nums1 and nums2 if both arrays have at least one occurrence of that integer.
