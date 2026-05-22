@@ -6,7 +6,8 @@ title: "Search in Rotated Sorted Array"
 url: "https://leetcode.com/problems/search-in-rotated-sorted-array"
 difficulty: Medium
 topics:
-  -
+  - Array
+  - Binary Search
 
 # Solution Tracking
 status: Solved
