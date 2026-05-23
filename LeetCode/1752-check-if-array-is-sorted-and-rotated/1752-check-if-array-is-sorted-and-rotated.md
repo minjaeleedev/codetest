@@ -6,16 +6,16 @@ title: "Check if Array Is Sorted and Rotated"
 url: "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/"
 difficulty: None
 topics:
-  -
+  - Array
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-05-23
+date-solved: 2026-05-23
+attempts: 2
 
 # Personal Notes
-rating:
+rating: 3
 needs-review: false
 tags: []
 notes: ""
