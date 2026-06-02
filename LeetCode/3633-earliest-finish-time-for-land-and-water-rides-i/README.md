@@ -6,7 +6,11 @@ title: "Earliest Finish Time for Land and Water Rides I"
 url: "https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Two Pointers
+  - Binary Search
+  - Greedy
+  - Sorting
 
 # Solution Tracking
 status: Solved
@@ -15,7 +19,7 @@ date-solved:
 attempts:
 
 # Personal Notes
-rating:
+rating: 3
 needs-review: false
 tags: []
 notes: ""
