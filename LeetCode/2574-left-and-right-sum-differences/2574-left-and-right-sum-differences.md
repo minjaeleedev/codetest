@@ -6,16 +6,17 @@ title: "Left and Right Sum Differences"
 url: "https://leetcode.com/problems/left-and-right-sum-differences/"
 difficulty: None
 topics:
-  -
+  - Array
+  - Prefix Sum
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-06-06
+date-solved: 2026-06-06
+attempts: 1
 
 # Personal Notes
-rating:
+rating: 1
 needs-review: false
 tags: []
 notes: ""
@@ -27,7 +28,7 @@ review-count: 0
 last-reviewed: null
 ---
 
-## 2574. Left and Right Sum Differences
+## [2574. Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences)
 
 Given a 0-indexed integer array nums, find a 0-indexed integer array answer where:
 
