@@ -6,16 +6,19 @@ title: "Create Binary Tree From Descriptions"
 url: "https://leetcode.com/problems/create-binary-tree-from-descriptions"
 difficulty: Medium
 topics:
-  -
+  - Array
+  - Hash Table
+  - Tree
+  - Binary Tree
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-06-07
+date-solved: 2026-06-07
+attempts: 2
 
 # Personal Notes
-rating:
+rating: 4
 needs-review: false
 tags: []
 notes: ""
