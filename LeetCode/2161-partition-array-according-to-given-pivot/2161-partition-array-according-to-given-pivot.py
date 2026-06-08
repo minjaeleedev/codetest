@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def pivotArray(self, nums: List[int], pivot: int) -> List[int]:
         less = []
@@ -11,5 +14,4 @@ class Solution:
             else:
                 greater.append(n)
 
-        return less+same+greater
-        
+        return less + same + greater

@@ -6,13 +6,15 @@ title: "Partition Array According to Given Pivot"
 url: "https://leetcode.com/problems/partition-array-according-to-given-pivot"
 difficulty: Medium
 topics:
-  -
+  - Array
+  - Two Pointers
+  - Simulation
 
 # Solution Tracking
 status: Solved
-date-attempted:
-date-solved:
-attempts:
+date-attempted: 2026-06-08
+date-solved: 2026-06-08
+attempts: 1
 
 # Personal Notes
 rating:
