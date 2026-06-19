@@ -6,7 +6,8 @@ title: "Find the Highest Altitude"
 url: "https://leetcode.com/problems/find-the-highest-altitude/"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Prefix Sum
 
 # Solution Tracking
 status: Solved
