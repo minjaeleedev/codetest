@@ -6,7 +6,10 @@ title: "Maximum Ice Cream Bars"
 url: "https://leetcode.com/problems/maximum-ice-cream-bars"
 difficulty: Medium
 topics:
-  -
+  - Array
+  - Greedy
+  - Sorting
+  - Counting Sort
 
 # Solution Tracking
 status: Solved
