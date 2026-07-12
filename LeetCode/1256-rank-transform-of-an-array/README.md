@@ -6,16 +6,18 @@ title: "Rank Transform of an Array"
 url: "https://leetcode.com/problems/rank-transform-of-an-array"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Hash Table
+  - Sorting
 
 # Solution Tracking
 status: Solved
-date-attempted:
+date-attempted: 2026-07-12
 date-solved:
 attempts:
 
 # Personal Notes
-rating:
+rating: 2
 needs-review: false
 tags: []
 notes: ""
