@@ -52,21 +52,43 @@ class Solution:
     def gcdValues(self, nums: List[int], queries: List[int]) -> List[int]:
         m = max(nums)
         cnt = [0] * (m + 1)
+
+        # step A: count numbers
         for num in nums:
             cnt[num] += 1
+
+        # step B: count the number of i multiplies
+        # time complexity: harmonic series
+        # m/1 + m/2 + m/3 + ... = O(m ln m) = O(m log m)
         for i in range(1, m + 1):
-            for j in range(i * 2, m + 1, i):
+            for j in range(i * 2, m + 1, i):  # 2i, 3i, 4i ...
                 cnt[i] += cnt[j]
+
+        # step C: transform counts to the number of pairs
         for i in range(1, m + 1):
+            # cnt[i] = the number of pairs that gcd is the multiply of i
+            # <=> gcd is at least the multiply i, not exactly i
+            # for example, if cnt[2] = 6, there is a pair that gcd is 4.
             cnt[i] = cnt[i] * (cnt[i] - 1) // 2
+
+        # step D: combinatorics - inclusion-exclusion
         for i in range(m, 0, -1):
+            # after the loop ends,
+            # cnt[i] = the number of pairs that gcd is equal to i
             for j in range(i * 2, m + 1, i):
                 cnt[i] -= cnt[j]
+
+        # step E: prefix sum
         for i in range(1, m + 1):
+            # cnt[i] = the number of pairs that GCD is less than or equal to i
             cnt[i] += cnt[i - 1]
+
+        # step F: answer the query with binary search
         ans = []
         for q in queries:
             q += 1
+            # the leftmost index where q can be inserted in sorted cnt array.
             pos = bisect_left(cnt, q)
             ans.append(pos)
+
         return ans

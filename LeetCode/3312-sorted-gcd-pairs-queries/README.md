@@ -24,7 +24,7 @@ attempts: 1
 rating: 7  # 1-10 difficulty rating (personal)
 needs-review: true  # Set to true for problems that need review
 tags: []  # Personal tags: interview-prep, tricky, favorite, etc.
-notes: "counting gcd"
+notes: "movius inversion"
 similar-problems:
   - platform:
     id:
