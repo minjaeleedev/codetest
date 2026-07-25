@@ -15,7 +15,7 @@ date-solved:
 attempts:
 
 # Personal Notes
-rating:
+rating: 1
 needs-review: false
 tags: []
 notes: ""
