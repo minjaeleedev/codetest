@@ -1,3 +1,34 @@
+---
+platform: LeetCode  # LeetCode | Baekjoon | Kattis | Codeforces | AtCoder | HackerRank | etc.
+platform-problem-id: "1563"
+title: "Stone Game V"
+url: "https://leetcode.com/problems/stone-game-v"
+difficulty: Hard   # LeetCode: Easy | Medium | Hard | Baekjoon: Bronze | Silver | Gold | Platinum | Diamond
+topics:
+  - Dynamic Programming
+  - Game Theory
+
+# Solution Tracking
+status: Attempted  # Not Started | Attempted | Solved | Reviewed
+date-attempted:
+date-solved:
+attempts:
+
+# Personal Notes
+rating:   # 1-10 difficulty rating (personal)
+needs-review: false  # Set to true for problems that need review
+tags: []  # Personal tags: interview-prep, tricky, favorite, etc.
+notes: ""
+similar-problems:
+  - platform:
+    id:
+
+# Review Schedule (for spaced repetition)
+next-review: null  # Auto-managed by review script
+review-count: 0
+last-reviewed: null
+---
+
 ## [1563. Stone Game V](https://leetcode.com/problems/stone-game-v)
 
 Hard
