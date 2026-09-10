@@ -6,7 +6,9 @@ title: "Count Nodes Equal to Average of Subtree"
 url: "https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree"
 difficulty: Medium
 topics:
-  -
+  - Tree
+  - Depth-First Search
+  - Binary Tree
 
 # Solution Tracking
 status: Solved
