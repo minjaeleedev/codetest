@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def isRectangleOverlap(self, rec1: List[int], rec2: List[int]) -> bool:
         left, right = [rec1, rec2] if rec1[0] <= rec2[0] else [rec2, rec1]

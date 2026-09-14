@@ -6,7 +6,8 @@ title: "Rectangle Overlap"
 url: "https://leetcode.com/problems/rectangle-overlap"
 difficulty: Easy
 topics:
-  -
+  - Math
+  - Geometry
 
 # Solution Tracking
 status: Solved
