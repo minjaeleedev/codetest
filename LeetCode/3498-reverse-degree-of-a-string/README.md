@@ -6,7 +6,8 @@ title: "Reverse Degree of a String"
 url: "https://leetcode.com/problems/reverse-degree-of-a-string/"
 difficulty: Easy
 topics:
-  -
+  - String
+  - Simulation
 
 # Solution Tracking
 status: Solved
