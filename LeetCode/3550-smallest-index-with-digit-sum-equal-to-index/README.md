@@ -6,7 +6,8 @@ title: "Smallest Index With Digit Sum Equal to Index"
 url: "https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Math
 
 # Solution Tracking
 status: Solved
