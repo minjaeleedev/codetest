@@ -6,7 +6,9 @@ title: "Maximum Nesting Depth of the Parentheses"
 url: "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses"
 difficulty: Easy
 topics:
-  -
+  - String
+  - Stack
+  - Bracket Sequences
 
 # Solution Tracking
 status: Solved
