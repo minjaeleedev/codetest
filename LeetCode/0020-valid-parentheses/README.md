@@ -6,7 +6,8 @@ title: "Valid Parentheses"
 url: "https://leetcode.com/problems/valid-parentheses/"
 difficulty: Easy
 topics:
-  -
+  - Stack
+  - Bracket Sequences
 
 # Solution Tracking
 status: Solved
