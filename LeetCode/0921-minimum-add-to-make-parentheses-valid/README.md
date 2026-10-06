@@ -6,7 +6,10 @@ title: "Minimum Add to Make Parentheses Valid"
 url: "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid"
 difficulty: Medium
 topics:
-  -
+  - String
+  - Stack
+  - Greedy
+  - Bracket Sequences
 
 # Solution Tracking
 status: Solved
