@@ -6,7 +6,10 @@ title: "Subarrays Distinct Element Sum of Squares I"
 url: "https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/"
 difficulty: None
 topics:
-  -
+  - Array
+  - Hash Table
+  - Binary Indexed Tree
+  - Segment Tree
 
 # Solution Tracking
 status: Solved
