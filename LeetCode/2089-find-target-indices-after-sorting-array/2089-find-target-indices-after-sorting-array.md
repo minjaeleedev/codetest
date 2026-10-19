@@ -6,7 +6,9 @@ title: "Find Target Indices After Sorting Array"
 url: "https://leetcode.com/problems/find-target-indices-after-sorting-array/"
 difficulty: None
 topics:
-  -
+  - Array
+  - Binary Search
+  - Sorting
 
 # Solution Tracking
 status: Solved
