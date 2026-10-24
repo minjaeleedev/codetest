@@ -6,7 +6,8 @@ title: "Count Days Spent Together"
 url: "https://leetcode.com/problems/count-days-spent-together/"
 difficulty: None
 topics:
-  -
+  - Math
+  - String
 
 # Solution Tracking
 status: Solved
