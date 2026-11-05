@@ -6,7 +6,10 @@ title: "Find the Distance Value Between Two Arrays"
 url: "https://leetcode.com/problems/find-the-distance-value-between-two-arrays/"
 difficulty: Easy
 topics:
-  -
+  - Array
+  - Two Pointers
+  - Binary Search
+  - Sorting
 
 # Solution Tracking
 status: Solved
