@@ -6,7 +6,7 @@ title: "Longest Strictly Increasing or Strictly Decreasing Subarray"
 url: "https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/"
 difficulty: None
 topics:
-  -
+  - Array
 
 # Solution Tracking
 status: Solved
