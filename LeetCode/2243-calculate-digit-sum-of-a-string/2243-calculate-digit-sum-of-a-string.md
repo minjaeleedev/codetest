@@ -6,7 +6,8 @@ title: "Calculate Digit Sum of a String"
 url: "https://leetcode.com/problems/calculate-digit-sum-of-a-string/"
 difficulty: None
 topics:
-  -
+  - String
+  - Simulation
 
 # Solution Tracking
 status: Solved
