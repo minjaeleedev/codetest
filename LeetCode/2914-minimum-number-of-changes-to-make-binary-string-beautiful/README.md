@@ -1,12 +1,12 @@
 ---
 # Problem Identification
 platform: LeetCode
+difficulty: Medium
 platform-problem-id: "2914"
 title: "Minimum Number of Changes to Make Binary String Beautiful"
 url: "https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful"
-difficulty: Medium
 topics:
-  -
+  - String
 
 # Solution Tracking
 status: Solved
