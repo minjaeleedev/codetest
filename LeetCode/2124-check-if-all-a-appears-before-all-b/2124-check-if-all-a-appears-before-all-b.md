@@ -6,7 +6,7 @@ title: "Check if All A's Appears Before All B's"
 url: "https://leetcode.com/problems/check-if-all-a's-appears-before-all-b's/"
 difficulty: None
 topics:
-  -
+  - String
 
 # Solution Tracking
 status: Solved
