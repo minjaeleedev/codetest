@@ -6,7 +6,8 @@ title: "Stone Removal Game"
 url: "https://leetcode.com/problems/stone-removal-game"
 difficulty: Easy
 topics:
-  -
+  - Math
+  - Simulation
 
 # Solution Tracking
 status: Solved
